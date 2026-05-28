@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "pydicom__pydicom-1694",
+    "repository": "pydicom",
+    "selection_source": "benchmark/task_sets/swebench_lite_mac_20.txt"
+  },
+  "hash": "35437d202ff9d16d9483fb093418baaae54f102fa4acd3a4706f881f931dace5",
+  "index": 102,
+  "kind": "trustableclaw.swebench.task_selected",
+  "prev_hash": "12dfb14a50740fa22f15b01d773213aab7f6ef56ea179942f04e8a5bd0aee6dc",
+  "receipt_id": "rcpt_01_task_selected_pydicom__pydicom_1694",
+  "timestamp": "2026-05-28T14:30:22.070762Z",
+  "version": 1
+}

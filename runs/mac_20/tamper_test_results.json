@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "patch_tamper_detected_by_real_verifier": true,
+  "test_log_tamper_detected_by_real_verifier": true,
+  "result_tamper_detected_by_real_verifier": true,
+  "receipt_json_tamper_detected_by_real_verifier": true,
+  "missing_receipt_detected_by_real_verifier": true,
+  "missing_manifest_detected_by_real_verifier": true,
+  "missing_proof_manifest_detected_by_real_verifier": true,
+  "proof_manifest_count_tamper_detected_by_real_verifier": true,
+  "agent_log_tamper_detected_by_real_verifier": true,
+  "prediction_patch_mismatch_detected_by_real_verifier": true,
+  "prediction_patch_trailing_whitespace_mismatch_detected_by_real_verifier": true,
+  "prediction_model_metadata_mismatch_detected_by_real_verifier": true,
+  "empty_receipts_dir_detected_by_real_verifier": true,
+  "missing_receipts_dir_detected_by_real_verifier": true
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "sqlfluff__sqlfluff-2419",
+    "repository": "sqlfluff",
+    "selection_source": "benchmark/task_sets/swebench_lite_mac_20.txt"
+  },
+  "hash": "aab86856a80b565cb4349a1abc7bb36d42297f475f9c73a2a3bb5fa9efff2ef2",
+  "index": 6,
+  "kind": "trustableclaw.swebench.task_selected",
+  "prev_hash": "c61eeda473fe8a90ac32f81ae07053119eac1ea202c98a6a0341b9e99354ff67",
+  "receipt_id": "rcpt_01_task_selected_sqlfluff__sqlfluff_2419",
+  "timestamp": "2026-05-28T10:30:22.070762Z",
+  "version": 1
+}

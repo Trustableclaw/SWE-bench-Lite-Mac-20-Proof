@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "sqlfluff__sqlfluff-2419",
+    "outcome_detail": "Evaluation setup or patch application failed.",
+    "outcome_type": "patch_apply_failure",
+    "resolved": false,
+    "result_file": "swebench_results/sqlfluff__sqlfluff-2419_result.json",
+    "result_sha256": "bd0f597f140be31a23fc368a23f402b12224d7359a3376d34ef0175eb9230ef2"
+  },
+  "hash": "8c5cdead574205407347c4ac77418316cfb6cd5797fbb21cb5d081857d01d987",
+  "index": 10,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "b21f80bba360c7cd7f7a08068f8142ab12cd9f54721975d55e5ac0e848732391",
+  "receipt_id": "rcpt_05_result_recorded_sqlfluff__sqlfluff_2419",
+  "timestamp": "2026-05-28T10:42:22.070762Z",
+  "version": 1
+}

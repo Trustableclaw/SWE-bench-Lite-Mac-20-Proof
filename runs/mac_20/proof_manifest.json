@@ -1,0 +1,32 @@
+{
+  "benchmark": "SWE-bench Lite",
+  "expected_receipt_count": 120,
+  "expected_receipts_per_task": 6,
+  "expected_task_count": 20,
+  "expected_task_ids": [
+    "sqlfluff__sqlfluff-1625",
+    "sqlfluff__sqlfluff-2419",
+    "sqlfluff__sqlfluff-1733",
+    "sqlfluff__sqlfluff-1517",
+    "sqlfluff__sqlfluff-1763",
+    "marshmallow-code__marshmallow-1359",
+    "marshmallow-code__marshmallow-1343",
+    "pvlib__pvlib-python-1707",
+    "pvlib__pvlib-python-1072",
+    "pvlib__pvlib-python-1606",
+    "pvlib__pvlib-python-1854",
+    "pvlib__pvlib-python-1154",
+    "pylint-dev__astroid-1978",
+    "pylint-dev__astroid-1333",
+    "pylint-dev__astroid-1196",
+    "pylint-dev__astroid-1866",
+    "pylint-dev__astroid-1268",
+    "pydicom__pydicom-1694",
+    "django__django-10914",
+    "pydicom__pydicom-1413"
+  ],
+  "note": "This package is self-contained for verification; do not claim this as a full 300-task SWE-bench Lite score.",
+  "pilot_type": "20-task proof-pipeline pilot",
+  "run_id": "trustableclaw_mac_20_proof_pipeline_pilot",
+  "schema_version": 1
+}

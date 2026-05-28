@@ -1,0 +1,15 @@
+{
+  "data": {
+    "instance_id": "marshmallow-code__marshmallow-1359",
+    "outcome_type": "patch_apply_failure",
+    "test_log_file": "swebench_results/marshmallow-code__marshmallow-1359_test.log",
+    "test_log_sha256": "6fc6f0829a6154f97fe17746cef1229855d9bf64d006216e80c8f1f249bdc7df"
+  },
+  "hash": "db72f40ee905446f3e99964077772899595010430cb1928dfee5d3fe5d5072bc",
+  "index": 33,
+  "kind": "trustableclaw.swebench.tests_executed",
+  "prev_hash": "4636ef9a90ec262ec90e121ad767ddcf36295cea1c8fb9d40dc1199637a285d3",
+  "receipt_id": "rcpt_04_tests_executed_marshmallow_code__marshmallow_1359",
+  "timestamp": "2026-05-28T11:40:22.070762Z",
+  "version": 1
+}

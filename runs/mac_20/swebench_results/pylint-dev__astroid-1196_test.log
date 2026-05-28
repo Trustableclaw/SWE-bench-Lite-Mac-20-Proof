@@ -1,0 +1,2817 @@
+2026-05-28 15:06:02,279 - INFO - Creating container for pylint-dev__astroid-1196...
+2026-05-28 15:06:02,689 - INFO - Container for pylint-dev__astroid-1196 created: 8a2783b9ed2ef05943705c7a3c254f27b5b0dc1767a03e549072a4b76371d7cc
+2026-05-28 15:06:02,774 - INFO - Container for pylint-dev__astroid-1196 started: 8a2783b9ed2ef05943705c7a3c254f27b5b0dc1767a03e549072a4b76371d7cc
+2026-05-28 15:06:02,775 - INFO - Intermediate patch for pylint-dev__astroid-1196 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/patch.diff, now applying to container...
+2026-05-28 15:06:02,909 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 15:06:02,978 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 15:06:03,044 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 15:06:03,044 - INFO - >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,068 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,069 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,070 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,071 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,072 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,085 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,086 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,087 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,088 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1196: >>>>> Patch Apply Failed:
+patching file astroid/nodes/node_classes.py
+Hunk #1 FAILED at 2247.
+1 out of 1 hunk FAILED -- saving rejects to file astroid/nodes/node_classes.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1196/run_instance.log) for more information.
+
+2026-05-28 15:06:03,089 - INFO - Attempting to stop container sweb.eval.pylint-dev__astroid-1196.mac_20...
+2026-05-28 15:06:18,230 - INFO - Attempting to remove container sweb.eval.pylint-dev__astroid-1196.mac_20...
+2026-05-28 15:06:18,246 - INFO - Container sweb.eval.pylint-dev__astroid-1196.mac_20 removed.
+2026-05-28 15:06:18,246 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pylint-dev_1776_astroid-1196:latest...
+2026-05-28 15:06:18,671 - INFO - Image swebench/sweb.eval.x86_64.pylint-dev_1776_astroid-1196:latest removed.

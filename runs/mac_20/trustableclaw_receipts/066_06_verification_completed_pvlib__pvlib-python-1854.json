@@ -1,0 +1,17 @@
+{
+  "data": {
+    "assertions_passed": false,
+    "instance_id": "pvlib__pvlib-python-1854",
+    "outcome_type": "tests_executed_unresolved",
+    "receipt_recorded": true,
+    "resolved": false,
+    "verification_status": "RECORDED_UNRESOLVED"
+  },
+  "hash": "2102e03bf9db0dacf5e12a892e3ca2f78f75e1df126fa179e46d56deb1219263",
+  "index": 65,
+  "kind": "trustableclaw.swebench.verification_completed",
+  "prev_hash": "6d7a00e90e42c78d4661964618ed35ca78eecef1a74ec0234064b787bcedc64f",
+  "receipt_id": "rcpt_06_verification_completed_pvlib__pvlib_python_1854",
+  "timestamp": "2026-05-28T12:59:22.070762Z",
+  "version": 1
+}

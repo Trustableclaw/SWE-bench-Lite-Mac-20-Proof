@@ -1,0 +1,95 @@
+diff --git a/astroid/manager.py b/astroid/manager.py
+index 8f4f7f2..f2f0f8d 100644
+--- a/astroid/manager.py
++++ b/astroid/manager.py
+@@ -1,6 +1,7 @@
+ """Astroid manager."""
+ 
+ from __future__ import annotations
++import os
+ 
+ import os.path as osp
+ import sys
+@@ -214,6 +215,18 @@ class AstroidManager:
+         if modname in self.astroid_cache:
+             return self.astroid_cache[modname]
+ 
++        # When a package directory is passed to pylint/astroid and it does not
++        # contain an __init__.py file, treat it as a namespace package instead
++        # of trying to parse a non-existent __init__.py. This avoids F0010
++        # errors for implicit namespace packages (PEP 420).
++        if osp.isdir(modname) and not osp.isfile(osp.join(modname, "__init__.py")):
++            try:
++                return self.ast_from_module_name(
++                    modname.replace(os.sep, ".").replace("/", ".")
++                )
++            except AstroidBuildingError:
++                pass
++
+         if osp.isdir(modname):
+             modname = osp.join(modname, "__init__.py")
+ 
+diff --git a/astroid/modutils.py b/astroid/modutils.py
+index 2f8f0f1..f0f8f8d 100644
+--- a/astroid/modutils.py
++++ b/astroid/modutils.py
+@@ -1,6 +1,7 @@
+ """Utilities for module manipulation."""
+ 
+ from __future__ import annotations
++import os
+ 
+ import importlib.machinery
+ import importlib.util
+@@ -286,6 +287,13 @@ def file_info_from_modpath(modpath, path=None):
+     if not modpath:
+         raise ImportError("Empty module name")
+ 
++    # Support implicit namespace packages (PEP 420). If the last component is
++    # a directory without __init__.py, return the directory itself instead of
++    # forcing an __init__.py path that does not exist.
++    if path is not None and osp.isdir(path) and not osp.isfile(osp.join(path, "__init__.py")):
++        return path, True
++
+     filepath = _file_from_modpath(modpath, path)
+     if filepath is None:
+         raise ImportError("Unable to find module {}".format(".".join(modpath)))
+diff --git a/tests/test_manager.py b/tests/test_manager.py
+index 7d2f1d1..f0f2f2a 100644
+--- a/tests/test_manager.py
++++ b/tests/test_manager.py
+@@ -1,6 +1,7 @@
+ """Tests for astroid.manager."""
+ 
+ from __future__ import annotations
++import os
+ 
+ import pytest
+ 
+@@ -210,3 +211,24 @@ def test_ast_from_module_name_package_without_init(tmp_path):
+     pkg = tmp_path / "pkg"
+     pkg.mkdir()
+     assert MANAGER.ast_from_module_name(str(pkg)) is not None
++
++
++def test_ast_from_module_name_namespace_package_directory(tmp_path):
++    src = tmp_path / "src"
++    pkg = src / "project"
++    pkg.mkdir(parents=True)
++
++    # No __init__.py on purpose: implicit namespace package.
++    module = MANAGER.ast_from_module_name(str(pkg))
++
++    assert module is not None
++    assert module.name == "project"
++
++
++def test_file_info_from_modpath_namespace_package_directory(tmp_path):
++    src = tmp_path / "src"
++    pkg = src / "project"
++    pkg.mkdir(parents=True)
++
++    filepath, is_namespace = file_info_from_modpath(["project"], path=str(pkg))
++
++    assert filepath == str(pkg)
++    assert is_namespace is True

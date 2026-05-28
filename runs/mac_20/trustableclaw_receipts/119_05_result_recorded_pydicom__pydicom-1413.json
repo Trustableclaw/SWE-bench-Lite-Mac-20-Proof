@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "pydicom__pydicom-1413",
+    "outcome_detail": "Evaluation setup or patch application failed.",
+    "outcome_type": "patch_apply_failure",
+    "resolved": false,
+    "result_file": "swebench_results/pydicom__pydicom-1413_result.json",
+    "result_sha256": "99dafa681686da3ae19e8ef8f9cd1906ebf027c77672722d234ad99d9e6240f2"
+  },
+  "hash": "17c65e3f5f595d4f345decad87b2047f4f0fcca28fac92a06ccc8803dd6449fa",
+  "index": 118,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "c2c2f367e45b6098b439b9e88dc8ad052f5f3254e1d540dfe373a41ec4485556",
+  "receipt_id": "rcpt_05_result_recorded_pydicom__pydicom_1413",
+  "timestamp": "2026-05-28T15:12:22.070762Z",
+  "version": 1
+}

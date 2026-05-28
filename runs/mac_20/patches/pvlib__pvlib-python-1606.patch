@@ -1,0 +1,61 @@
+diff --git a/pvlib/tools.py b/pvlib/tools.py
+index 8f4f7f2..f2d8f4a 100644
+--- a/pvlib/tools.py
++++ b/pvlib/tools.py
+@@ -331,6 +331,13 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):
+     """
+     Golden section search for a DataFrame of parameters.
+     """
++    # If the search interval has zero width, the optimum is trivially at the
++    # bound. This can occur in pvlib's singlediode calculations when v_oc is
++    # zero, which previously caused a divide-by-zero in the iteration count
++    # estimate and an unnecessary failure.
++    if np.all(np.asarray(lower) == np.asarray(upper)):
++        return lower, func(lower, params)
++
+     phi = (1 + np.sqrt(5)) / 2
+     phim1 = phi - 1
+ 
+@@ -338,7 +345,11 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):
+     df = pd.DataFrame(index=params.index)
+     df['VL'] = lower
+     df['VH'] = upper
+-    niter = np.trunc(np.log(atol / (df['VH'] - df['VL'])) / np.log(phim1))
++    width = df['VH'] - df['VL']
++    # Avoid divide-by-zero warnings for degenerate intervals. These are handled
++    # above, but keep the guard here for robustness with mixed inputs.
++    width = width.where(width != 0, np.nan)
++    niter = np.trunc(np.log(atol / width) / np.log(phim1))
+     niter = np.maximum(niter, 0).astype(int)
+ 
+     df['x1'] = df['VH'] - phim1 * (df['VH'] - df['VL'])
+@@ -356,6 +367,10 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):
+         df['x2'] = df['VL'] + phim1 * (df['VH'] - df['VL'])
+         df['f2'] = func(df['x2'], params)
+ 
++        # If any rows have degenerate intervals, their optimum is already known.
++        # Keep them out of the iteration logic to avoid NaN propagation.
++        done = (df['VH'] == df['VL'])
++
+         # update bounds
+         mask = df['f1'] > df['f2']
+         df.loc[mask, 'VL'] = df.loc[mask, 'x1']
+@@ -364,6 +379,10 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):
+         df.loc[~mask, 'x2'] = df.loc[~mask, 'x1']
+         df.loc[~mask, 'f2'] = df.loc[~mask, 'f1']
+ 
++        if done.any():
++            df.loc[done, 'x1'] = df.loc[done, 'VL']
++            df.loc[done, 'x2'] = df.loc[done, 'VH']
++
+         if np.all(np.abs(df['VH'] - df['VL']) < atol):
+             break
+     else:
+@@ -371,7 +390,7 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):
+             raise Exception("Iterations exceeded maximum. Check that func",
+                             " is not NaN in (lower, upper)")
+ 
+-    x = (df['VL'] + df['VH']) / 2
++    x = (df['VL'] + df['VH']) / 2
+     f = func(x, params)
+     return x, f

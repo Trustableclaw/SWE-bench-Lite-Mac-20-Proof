@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "django__django-10914",
+    "outcome_detail": "Evaluation setup or patch application failed.",
+    "outcome_type": "patch_apply_failure",
+    "resolved": false,
+    "result_file": "swebench_results/django__django-10914_result.json",
+    "result_sha256": "db1c6720f41347bc8101259c925381de505dc6b88840ec91f2f85f23e20ecbb9"
+  },
+  "hash": "5978ba534bc8f311b2dba52d49ec6ca7d3188cef60e3dabb758323772a583c3d",
+  "index": 112,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "7376576471d9c073d61fa8036e1e925eec5e4b2e7ebdf2a8cfa0c43eb30caa00",
+  "receipt_id": "rcpt_05_result_recorded_django__django_10914",
+  "timestamp": "2026-05-28T14:57:22.070762Z",
+  "version": 1
+}

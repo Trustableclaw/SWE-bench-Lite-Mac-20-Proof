@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "required_shape_ok": true,
+  "receipts_load_ok": true,
+  "receipts_ok": true,
+  "ledger_ok": true,
+  "manifest_hash_match": true,
+  "agent_log_hash_match": true,
+  "agent_log_model_match": true,
+  "patch_hash_match": true,
+  "test_log_hash_match": true,
+  "result_hash_match": true,
+  "outcome_match": true,
+  "verification_receipts_not_overstated": true,
+  "prediction_patch_match": true,
+  "prediction_model_match": true,
+  "proof_package_ok": true,
+  "expected_tasks": 20,
+  "expected_receipts": 120,
+  "actual_receipts": 120,
+  "errors": []
+}

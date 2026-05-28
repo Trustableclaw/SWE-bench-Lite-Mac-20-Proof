@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCZEMTteAK0jZEfvnBs1UuLUsT6L",
+  "object": "chat.completion",
+  "created": 1779903768,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/astroid/nodes/as_string.py b/astroid/nodes/as_string.py\nindex 8f7f4f2..f4f7f8d 100644\n--- a/astroid/nodes/as_string.py\n+++ b/astroid/nodes/as_string.py\n@@ -1,6 +1,7 @@\n \"\"\"Utilities to convert astroid nodes back to source code.\"\"\"\n \n from __future__ import annotations\n+from typing import Any\n \n from astroid import util\n from astroid.nodes import node_classes\n@@ -53,6 +54,9 @@ class AsStringVisitor:\n     def visit_const(self, node):\n         return repr(node.value)\n \n+    def visit_unknown(self, node: Any):\n+        return \"\"\n+\n     def visit_name(self, node):\n         return node.name\n \ndiff --git a/astroid/nodes/node_ng.py b/astroid/nodes/node_ng.py\nindex 4f2f0f1..f0f0f2a 100644\n--- a/astroid/nodes/node_ng.py\n+++ b/astroid/nodes/node_ng.py\n@@ -216,7 +216,10 @@ class NodeNG:\n     def accept(self, visitor):\n         \"\"\"Visit this node with the given visitor.\"\"\"\n-        func = getattr(visitor, \"visit_\" + self.__class__.__name__.lower())\n+        func = getattr(\n+            visitor,\n+            \"visit_\" + self.__class__.__name__.lower(),\n+            getattr(visitor, \"visit_unknown\", None),\n+        )\n+        if func is None:\n+            raise AttributeError(\n+                f\"{visitor.__class__.__name__!r} object has no attribute \"\n+                f\"'visit_{self.__class__.__name__.lower()}'\"\n+            )\n         return func(self)\n",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 429,
+    "completion_tokens": 392,
+    "total_tokens": 821,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-Djkce8nJ1eiiV9UepW8pzO5ZcW114",
+  "object": "chat.completion",
+  "created": 1779796348,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/marshmallow/schema.py b/marshmallow/schema.py\nindex 7f4f0f2..f0f8f8d 100644\n--- a/marshmallow/schema.py\n+++ b/marshmallow/schema.py\n@@ -891,7 +891,10 @@ class Schema(metaclass=SchemaMeta):\n         for field_name, validators in self._field_validators.items():\n             field_obj = self.fields[field_name]\n             for validator in validators:\n-                value = data[field_obj.attribute or field_name]\n+                if data is None:\n+                    value = None\n+                else:\n+                    value = data[field_obj.attribute or field_name]\n                 validator(value)\n \n     def _invoke_processors(self, tag, *, pass_many, data, many, original_data=None, **kwargs):",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 755,
+    "completion_tokens": 184,
+    "total_tokens": 939,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

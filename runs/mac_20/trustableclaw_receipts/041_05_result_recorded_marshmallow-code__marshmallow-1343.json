@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "marshmallow-code__marshmallow-1343",
+    "outcome_detail": "Evaluation setup or patch application failed.",
+    "outcome_type": "patch_apply_failure",
+    "resolved": false,
+    "result_file": "swebench_results/marshmallow-code__marshmallow-1343_result.json",
+    "result_sha256": "9a604a4abbd1e4a05fe9cef4da0e1669275b6c2795b4114c277a545e5d3e6cfb"
+  },
+  "hash": "de5679dd88413132fb3d9facfd838bb0370a083299b1cd80d83670ecb625bbed",
+  "index": 40,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "f3f338502921e8d2867cb46c43fbb6e4ff029e6488a9daac824bbcec06e1ed82",
+  "receipt_id": "rcpt_05_result_recorded_marshmallow_code__marshmallow_1343",
+  "timestamp": "2026-05-28T11:57:22.070762Z",
+  "version": 1
+}

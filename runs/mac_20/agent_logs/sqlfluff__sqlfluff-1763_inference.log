@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DjkcYc660EAKUpo9LgNTtnE0Aj0gS",
+  "object": "chat.completion",
+  "created": 1779796342,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/src/sqlfluff/core/linter/fix.py b/src/sqlfluff/core/linter/fix.py\nindex 8f4f2f2..f2d7f4a 100644\n--- a/src/sqlfluff/core/linter/fix.py\n+++ b/src/sqlfluff/core/linter/fix.py\n@@ -1,6 +1,7 @@\n \"\"\"Functions for applying fixes to a parsed file.\"\"\"\n \n from typing import List, Optional, Tuple\n+import sys\n \n from sqlfluff.core.errors import SQLFluffSkipFile\n from sqlfluff.core.linter.common import LintFix, LintResult\n@@ -214,7 +215,7 @@ def apply_fixes(\n                 )\n                 if fixable:\n                     # If we have a fixable violation, apply it.\n-                    print(f\"Applying Fixes to {fname}\")\n+                    print(f\"Applying Fixes to {fname}\", file=sys.stderr)\n                     fixed = True\n                     # Apply the fixes.\n                     tree = apply_fixes_to_tree(tree, fixes, templated_file)\ndiff --git a/src/sqlfluff/core/linter/linter.py b/src/sqlfluff/core/linter/linter.py\nindex 4f1f0f8..f0f8f4d 100644\n--- a/src/sqlfluff/core/linter/linter.py\n+++ b/src/sqlfluff/core/linter/linter.py\n@@ -1,6 +1,7 @@\n \"\"\"The main linter class.\"\"\"\n \n import logging\n+import sys\n from typing import Any, Dict, Iterable, List, Optional, Tuple\n \n from sqlfluff.core.errors import SQLFluffSkipFile\n@@ -742,7 +743,7 @@ class Linter:\n                 )\n                 if fixable:\n                     # If we have a fixable violation, apply it.\n-                    print(f\"Applying Fixes to {fname}\")\n+                    print(f\"Applying Fixes to {fname}\", file=sys.stderr)\n                     fixed = True\n                     # Apply the fixes.\n                     tree = apply_fixes_to_tree(tree, fixes, templated_file)\n",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1889,
+    "completion_tokens": 453,
+    "total_tokens": 2342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCYz0ilfaHbyt6WJcgBxlAmOLtK7",
+  "object": "chat.completion",
+  "created": 1779903753,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/astroid/raw_building.py b/astroid/raw_building.py\nindex 8f7f4f2..f2f7f8d 100644\n--- a/astroid/raw_building.py\n+++ b/astroid/raw_building.py\n@@ -1,6 +1,7 @@\n \"\"\"Utilities for building astroid trees from live objects.\"\"\"\n \n from __future__ import annotations\n+import warnings\n \n import builtins\n import inspect\n@@ -467,7 +468,10 @@ def _module_attrs(module):\n     for name in dir(module):\n         try:\n-            getattr(sys.modules[modname], name)\n+            with warnings.catch_warnings():\n+                warnings.simplefilter(\"ignore\", FutureWarning)\n+                getattr(sys.modules[modname], name)\n         except Exception:\n             continue\n         yield name",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 394,
+    "completion_tokens": 188,
+    "total_tokens": 582,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DjkcGLRHfjJ5QRG6MxUMcdG6BurXX",
+  "object": "chat.completion",
+  "created": 1779796324,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/src/sqlfluff/rules/L031.py b/src/sqlfluff/rules/L031.py\nindex 8f3f2f1..f2f7d8a 100644\n--- a/src/sqlfluff/rules/L031.py\n+++ b/src/sqlfluff/rules/L031.py\n@@ -1,6 +1,7 @@\n \"\"\"Implementation of Rule L031.\"\"\"\n \n from sqlfluff.core.rules import BaseRule, LintResult, RuleContext\n+from sqlfluff.core.parser.segments import BaseSegment\n \n \n class Rule_L031(BaseRule):\n@@ -24,18 +25,31 @@ class Rule_L031(BaseRule):\n     def _eval(self, context: RuleContext):\n         \"\"\"Aliases should not be used in join conditions.\"\"\"\n         segment = context.segment\n-        if segment.is_type(\"join_clause\"):\n-            # Look for aliases in the join condition.\n-            for child in segment.segments:\n-                if child.is_type(\"expression\"):\n-                    for seg in child.segments:\n-                        if seg.is_type(\"column_reference\"):\n-                            if len(seg.segments) > 1:\n-                                return LintResult(\n-                                    anchor=seg,\n-                                    description=\"Avoid using aliases in join condition.\",\n-                                )\n+        if not segment.is_type(\"join_clause\"):\n+            return None\n+\n+        # Look for aliases in the join condition only when a join clause exists.\n+        # TSQL table aliases can appear in other contexts, such as SELECT targets,\n+        # and should not be flagged by this rule unless they are part of a join\n+        # condition.\n+        for child in segment.segments:\n+            if child.is_type(\"expression\"):\n+                for seg in child.segments:\n+                    if seg.is_type(\"column_reference\"):\n+                        if len(seg.segments) > 1:\n+                            return LintResult(\n+                                anchor=seg,\n+                                description=\"Avoid using aliases in join condition.\",\n+                            )\n         return None",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 432,
+    "total_tokens": 764,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

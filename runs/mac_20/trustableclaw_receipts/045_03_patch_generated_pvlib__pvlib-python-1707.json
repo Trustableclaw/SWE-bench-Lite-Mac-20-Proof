@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "pvlib__pvlib-python-1707",
+    "patch_file": "patches/pvlib__pvlib-python-1707.patch",
+    "patch_sha256": "e08a4fbf345842adfec4db098c15d2050717c619d0adb23f283a20cca2b8721a"
+  },
+  "hash": "45292a9032712d5aef3c5b0e4963d3925a4fa5325c313adbf457db5f0beeaea3",
+  "index": 44,
+  "kind": "trustableclaw.swebench.patch_generated",
+  "prev_hash": "dafd34e29d131a3f22885453e84cd081b54919d0d3afcb7a63c8201367c8bc76",
+  "receipt_id": "rcpt_03_patch_generated_pvlib__pvlib_python_1707",
+  "timestamp": "2026-05-28T12:05:22.070762Z",
+  "version": 1
+}

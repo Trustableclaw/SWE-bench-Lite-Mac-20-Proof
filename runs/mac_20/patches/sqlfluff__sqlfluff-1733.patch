@@ -1,0 +1,91 @@
+diff --git a/src/sqlfluff/rules/L010.py b/src/sqlfluff/rules/L010.py
+index 7f4f2f1..d2f8f8a 100644
+--- a/src/sqlfluff/rules/L010.py
++++ b/src/sqlfluff/rules/L010.py
+@@ -1,6 +1,7 @@
+ """Implementation of Rule L010."""
+ 
+ from typing import List, Optional, Tuple
++from sqlfluff.core.parser.segments import BaseSegment
+ 
+ from sqlfluff.core.rules.base import BaseRule, LintResult, LintFix
+ 
+@@ -92,6 +93,31 @@ class Rule_L010(BaseRule):
+         return LintResult(anchor=anchor, fixes=fixes)
+ 
+     def _get_indent(self, segment):
++        """Get the indentation for a segment.
++
++        When a select target is moved onto a new line immediately after a
++        newline inserted by another rule, the raw whitespace before the target
++        can include the indentation of the previous line plus an extra space
++        from the moved segment itself. In a WITH clause this can result in the
++        first select target being over-indented by one space after fixing.
++
++        To avoid this, if the segment is the first non-whitespace element after
++        a newline, we derive indentation from the preceding newline and any
++        following whitespace only, rather than preserving the segment's own
++        leading whitespace.
++        """
++        if not isinstance(segment, BaseSegment):
++            return ""
++        raw = segment.raw
++        if "\n" not in raw:
++            return ""
++        last_newline = raw.rfind("\n")
++        trailing = raw[last_newline + 1 :]
++        if trailing.strip():
++            return ""
++        return trailing
++
++    def _get_indent(self, segment):
+         """Get the indentation for a segment."""
+         if segment.is_type("whitespace"):
+             return segment.raw
+         return ""
+diff --git a/src/sqlfluff/rules/L010.py b/src/sqlfluff/rules/L010.py
+index d2f8f8a..f3d2c1a 100644
+--- a/src/sqlfluff/rules/L010.py
++++ b/src/sqlfluff/rules/L010.py
+@@ -1,7 +1,6 @@
+ """Implementation of Rule L010."""
+ 
+-from typing import List, Optional, Tuple
+-from sqlfluff.core.parser.segments import BaseSegment
++from typing import List, Optional, Tuple
+ 
+ from sqlfluff.core.rules.base import BaseRule, LintResult, LintFix
+ 
+@@ -93,31 +92,6 @@ class Rule_L010(BaseRule):
+         return LintResult(anchor=anchor, fixes=fixes)
+ 
+     def _get_indent(self, segment):
+-        """Get the indentation for a segment.
+-
+-        When a select target is moved onto a new line immediately after a
+-        newline inserted by another rule, the raw whitespace before the target
+-        can include the indentation of the previous line plus an extra space
+-        from the moved segment itself. In a WITH clause this can result in the
+-        first select target being over-indented by one space after fixing.
+-
+-        To avoid this, if the segment is the first non-whitespace element after
+-        a newline, we derive indentation from the preceding newline and any
+-        following whitespace only, rather than preserving the segment's own
+-        leading whitespace.
+-        """
+-        if not isinstance(segment, BaseSegment):
+-            return ""
+-        raw = segment.raw
+-        if "\n" not in raw:
+-            return ""
+-        last_newline = raw.rfind("\n")
+-        trailing = raw[last_newline + 1 :]
+-        if trailing.strip():
+-            return ""
+-        return trailing
+-
+-    def _get_indent(self, segment):
+         """Get the indentation for a segment."""
+         if segment.is_type("whitespace"):
+             return segment.raw
+         return ""

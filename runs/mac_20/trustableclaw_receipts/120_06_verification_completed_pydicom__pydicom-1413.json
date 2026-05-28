@@ -1,0 +1,17 @@
+{
+  "data": {
+    "assertions_passed": false,
+    "instance_id": "pydicom__pydicom-1413",
+    "outcome_type": "patch_apply_failure",
+    "receipt_recorded": true,
+    "resolved": false,
+    "verification_status": "RECORDED_UNRESOLVED"
+  },
+  "hash": "56c72d8e9a73877b1bf851fb4d314b377d073d453a756cbcba20a2fdab1715c4",
+  "index": 119,
+  "kind": "trustableclaw.swebench.verification_completed",
+  "prev_hash": "17c65e3f5f595d4f345decad87b2047f4f0fcca28fac92a06ccc8803dd6449fa",
+  "receipt_id": "rcpt_06_verification_completed_pydicom__pydicom_1413",
+  "timestamp": "2026-05-28T15:14:22.070762Z",
+  "version": 1
+}

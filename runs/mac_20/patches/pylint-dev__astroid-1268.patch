@@ -1,0 +1,41 @@
+diff --git a/astroid/nodes/as_string.py b/astroid/nodes/as_string.py
+index 8f7f4f2..f4f7f8d 100644
+--- a/astroid/nodes/as_string.py
++++ b/astroid/nodes/as_string.py
+@@ -1,6 +1,7 @@
+ """Utilities to convert astroid nodes back to source code."""
+ 
+ from __future__ import annotations
++from typing import Any
+ 
+ from astroid import util
+ from astroid.nodes import node_classes
+@@ -53,6 +54,9 @@ class AsStringVisitor:
+     def visit_const(self, node):
+         return repr(node.value)
+ 
++    def visit_unknown(self, node: Any):
++        return ""
++
+     def visit_name(self, node):
+         return node.name
+ 
+diff --git a/astroid/nodes/node_ng.py b/astroid/nodes/node_ng.py
+index 4f2f0f1..f0f0f2a 100644
+--- a/astroid/nodes/node_ng.py
++++ b/astroid/nodes/node_ng.py
+@@ -216,7 +216,10 @@ class NodeNG:
+     def accept(self, visitor):
+         """Visit this node with the given visitor."""
+-        func = getattr(visitor, "visit_" + self.__class__.__name__.lower())
++        func = getattr(
++            visitor,
++            "visit_" + self.__class__.__name__.lower(),
++            getattr(visitor, "visit_unknown", None),
++        )
++        if func is None:
++            raise AttributeError(
++                f"{visitor.__class__.__name__!r} object has no attribute "
++                f"'visit_{self.__class__.__name__.lower()}'"
++            )
+         return func(self)

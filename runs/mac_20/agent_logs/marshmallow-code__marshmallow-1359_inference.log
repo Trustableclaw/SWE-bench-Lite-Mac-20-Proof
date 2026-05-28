@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-Djkcbdq5LkLF9o22L0BxoZF3Qjf9I",
+  "object": "chat.completion",
+  "created": 1779796345,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/marshmallow/fields.py b/marshmallow/fields.py\nindex 7f4f0f2..f2f8f8d 100644\n--- a/marshmallow/fields.py\n+++ b/marshmallow/fields.py\n@@ -1109,10 +1109,11 @@ class DateTime(Field):\n     def _bind_to_schema(self, field_name, schema):\n         super()._bind_to_schema(field_name, schema)\n         self.format = (\n-            self.format\n-            or getattr(schema.opts, self.SCHEMA_OPTS_VAR_NAME)\n-            or self.DEFAULT_FORMAT\n+            self.format or\n+            getattr(\n+                getattr(schema, \"opts\", None), self.SCHEMA_OPTS_VAR_NAME, None\n+            ) or self.DEFAULT_FORMAT\n         )\n \n \n class Time(DateTime):",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 192,
+    "total_tokens": 851,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

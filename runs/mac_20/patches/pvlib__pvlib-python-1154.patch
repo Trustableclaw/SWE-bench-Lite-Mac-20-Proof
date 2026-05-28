@@ -1,0 +1,16 @@
+diff --git a/pvlib/irradiance.py b/pvlib/irradiance.py
+index 8f4f2f0..f4f0f4a 100644
+--- a/pvlib/irradiance.py
++++ b/pvlib/irradiance.py
+@@ -1718,7 +1718,8 @@ def reindl(surface_tilt, surface_azimuth, dhi, dni, ghi, dni_extra,
+     term1 = 0.5 * (1 + np.cos(np.radians(surface_tilt)))
+     term2 = 1 - np.cos(np.radians(surface_tilt)) ** 2 * np.sin(
+         np.radians(surface_tilt / 2)) ** 3
+-    term3 = 1 + np.sqrt(np.divide(dni, ghi, where=ghi != 0) *
++    dni_ghi = np.divide(dni, ghi, out=np.zeros_like(dni, dtype=float),
++                        where=ghi != 0)
++    term3 = 1 + np.sqrt(dni_ghi *
+                         np.cos(np.radians(aoi)) ** 2 *
+                         np.sin(np.radians(surface_tilt / 2)) ** 3)
+     sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+     return sky_diffuse

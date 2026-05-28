@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCZTmUxPsCIcudrO4YphTtr0xWOq",
+  "object": "chat.completion",
+  "created": 1779903783,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pydicom/valuerep.py b/pydicom/valuerep.py\nindex 8f2f7f2..f4f7f8a 100644\n--- a/pydicom/valuerep.py\n+++ b/pydicom/valuerep.py\n@@ -1,6 +1,7 @@\n \"\"\"Classes and functions for representing DICOM value representations.\"\"\"\n \n from collections.abc import Iterable\n+from collections.abc import Sequence\n from decimal import Decimal\n from typing import Any\n from typing import Callable\n@@ -1040,6 +1041,18 @@ def _format_number_as_ds(val: Any) -> str:\n     return str(val)\n \n \n+def _is_bytes_like(value: Any) -> bool:\n+    \"\"\"Return ``True`` if *value* is a bytes-like object.\"\"\"\n+    return isinstance(value, (bytes, bytearray, memoryview))\n+\n+\n+def _is_multi_value(value: Any) -> bool:\n+    \"\"\"Return ``True`` if *value* is a multi-valued DICOM value.\"\"\"\n+    return isinstance(value, MultiValue) or (\n+        isinstance(value, Sequence) and not isinstance(value, (str, bytes, bytearray, memoryview))\n+    )\n+\n+\n class PersonName(str):\n     \"\"\"Represent a DICOM Person Name (PN) value.\"\"\"\n \ndiff --git a/pydicom/filewriter.py b/pydicom/filewriter.py\nindex 2f4f0f1..f0f0f2a 100644\n--- a/pydicom/filewriter.py\n+++ b/pydicom/filewriter.py\n@@ -34,7 +34,7 @@ from pydicom.tag import BaseTag\n from pydicom.tag import Tag\n from pydicom.tag import TagType\n from pydicom.tag import TupleTag\n-from pydicom.valuerep import PersonName\n+from pydicom.valuerep import PersonName, _is_bytes_like, _is_multi_value\n from pydicom.valuerep import VR\n from pydicom.valuerep import VR as VRType\n from pydicom.valuerep import VR as VRTypeAlias\n@@ -470,7 +470,7 @@ def write_numbers(fp: DicomIO, elem: DataElement) -> None:\n     if elem.VR in {VR.OB, VR.OD, VR.OF, VR.OL, VR.OV, VR.OW, VR.UN}:\n         if elem.VR == VR.OB or elem.VR == VR.UN:\n             fp.write(cast(bytes, elem.value))\n-        elif isinstance(elem.value, MultiValue):\n+        elif _is_multi_value(elem.value) and not _is_bytes_like(elem.value):\n             fp.write(cast(bytes, bytes(elem.value)))\n         else:\n             fp.write(cast(bytes, elem.value))\n@@ -479,7 +479,7 @@ def write_numbers(fp: DicomIO, elem: DataElement) -> None:\n         fp.write(cast(bytes, elem.value))\n         return\n \n-    if isinstance(elem.value, MultiValue):\n+    if _is_multi_value(elem.value) and not _is_bytes_like(elem.value):\n         fp.write(cast(bytes, bytes(elem.value)))\n     else:\n         fp.write(cast(bytes, elem.value))\ndiff --git a/pydicom/dataelem.py b/pydicom/dataelem.py\nindex 7d8f0f1..8f0f0f2 100644\n--- a/pydicom/dataelem.py\n+++ b/pydicom/dataelem.py\n@@ -1,6 +1,7 @@\n \"\"\"Classes and functions for representing DICOM data elements.\"\"\"\n \n from collections.abc import Iterable\n+from collections.abc import Sequence\n from copy import deepcopy\n from typing import Any\n from typing import Callable\n@@ -43,7 +44,7 @@ from pydicom.tag import BaseTag\n from pydicom.tag import Tag\n from pydicom.tag import TagType\n from pydicom.tag import TupleTag\n-from pydicom.valuerep import PersonName\n+from pydicom.valuerep import PersonName, _is_bytes_like, _is_multi_value\n from pydicom.valuerep import VR\n from pydicom.valuerep import VR as VRType\n from pydicom.valuerep import VR as VRTypeAlias\n@@ -101,7 +102,7 @@ def _convert_value(vr: str, value: Any) -> Any:\n     if vr in {VR.OB, VR.OD, VR.OF, VR.OL, VR.OV, VR.OW, VR.UN}:\n         if vr == VR.OB or vr == VR.UN:\n             return value\n-        if isinstance(value, MultiValue):\n+        if _is_multi_value(value) and not _is_bytes_like(value):\n             return bytes(value)\n         return value\n \n@@ -109,7 +110,7 @@ def _convert_value(vr: str, value: Any) -> Any:\n         return value\n \n-    if isinstance(value, MultiValue):\n+    if _is_multi_value(value) and not _is_bytes_like(value):\n         return value\n     return value",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 372,
+    "completion_tokens": 1112,
+    "total_tokens": 1484,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

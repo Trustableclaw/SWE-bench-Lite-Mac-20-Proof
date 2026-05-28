@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "django__django-10914",
+    "patch_file": "patches/django__django-10914.patch",
+    "patch_sha256": "b48bc519b83cdcdfc1af9b0dd45ea05851705194eed4bf168b1a9fc853615605"
+  },
+  "hash": "09ad5cb43b1ff015867cf2f04de6f2f74e28b3709312572ddaacf8c91d1d2fd2",
+  "index": 110,
+  "kind": "trustableclaw.swebench.patch_generated",
+  "prev_hash": "752155c5496acdc112d20d8b9503de46599fa9f4864c314f209262c96fcc0f3e",
+  "receipt_id": "rcpt_03_patch_generated_django__django_10914",
+  "timestamp": "2026-05-28T14:50:22.070762Z",
+  "version": 1
+}

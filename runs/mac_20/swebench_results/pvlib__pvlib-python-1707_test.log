@@ -1,0 +1,3377 @@
+2026-05-28 14:12:01,687 - INFO - Creating container for pvlib__pvlib-python-1707...
+2026-05-28 14:12:03,004 - INFO - Container for pvlib__pvlib-python-1707 created: 65b03aba9874cd70eacbfe76f947f2dd2acb33fa315b619d46f9b9707a2ad704
+2026-05-28 14:12:03,091 - INFO - Container for pvlib__pvlib-python-1707 started: 65b03aba9874cd70eacbfe76f947f2dd2acb33fa315b619d46f9b9707a2ad704
+2026-05-28 14:12:03,092 - INFO - Intermediate patch for pvlib__pvlib-python-1707 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/patch.diff, now applying to container...
+2026-05-28 14:12:03,222 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 14:12:03,288 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 14:12:03,355 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 14:12:03,355 - INFO - >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,377 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,378 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,379 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,380 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,381 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,398 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,399 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,400 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1707: >>>>> Patch Apply Failed:
+patching file pvlib/iam.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 171.
+Hunk #3 FAILED at 179.
+3 out of 3 hunks FAILED -- saving rejects to file pvlib/iam.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1707/run_instance.log) for more information.
+
+2026-05-28 14:12:03,401 - INFO - Attempting to stop container sweb.eval.pvlib__pvlib-python-1707.mac_20...
+2026-05-28 14:12:18,544 - INFO - Attempting to remove container sweb.eval.pvlib__pvlib-python-1707.mac_20...
+2026-05-28 14:12:18,564 - INFO - Container sweb.eval.pvlib__pvlib-python-1707.mac_20 removed.
+2026-05-28 14:12:18,564 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pvlib_1776_pvlib-python-1707:latest...
+2026-05-28 14:12:19,711 - INFO - Image swebench/sweb.eval.x86_64.pvlib_1776_pvlib-python-1707:latest removed.

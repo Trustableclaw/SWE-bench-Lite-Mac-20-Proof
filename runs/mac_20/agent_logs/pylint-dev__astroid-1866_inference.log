@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCZCOKmwGpKszA3uzEHgYzKgrjbq",
+  "object": "chat.completion",
+  "created": 1779903766,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/astroid/brain/brain_builtin_inference.py b/astroid/brain/brain_builtin_inference.py\nindex 8f7f4f0..f2d8f7a 100644\n--- a/astroid/brain/brain_builtin_inference.py\n+++ b/astroid/brain/brain_builtin_inference.py\n@@ -953,7 +953,10 @@ def _infer_str_format_call(node, context=None):\n         keyword_values = {\n             keyword.arg: next(keyword.value.infer(context))\n             for keyword in node.keywords\n         }\n-        formatted_string = format_template.format(*pos_values, **keyword_values)\n+        try:\n+            formatted_string = format_template.format(*pos_values, **keyword_values)\n+        except TypeError:\n+            return\n         yield nodes.Const(formatted_string)\n     except (InferenceError, StopIteration):\n         return",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 658,
+    "completion_tokens": 198,
+    "total_tokens": 856,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

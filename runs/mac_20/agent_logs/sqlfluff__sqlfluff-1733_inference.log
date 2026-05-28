@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DjkcOAeapHhpcfFiN1MFLcwnJRCL3",
+  "object": "chat.completion",
+  "created": 1779796332,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/src/sqlfluff/rules/L010.py b/src/sqlfluff/rules/L010.py\nindex 7f4f2f1..d2f8f8a 100644\n--- a/src/sqlfluff/rules/L010.py\n+++ b/src/sqlfluff/rules/L010.py\n@@ -1,6 +1,7 @@\n \"\"\"Implementation of Rule L010.\"\"\"\n \n from typing import List, Optional, Tuple\n+from sqlfluff.core.parser.segments import BaseSegment\n \n from sqlfluff.core.rules.base import BaseRule, LintResult, LintFix\n \n@@ -92,6 +93,31 @@ class Rule_L010(BaseRule):\n         return LintResult(anchor=anchor, fixes=fixes)\n \n     def _get_indent(self, segment):\n+        \"\"\"Get the indentation for a segment.\n+\n+        When a select target is moved onto a new line immediately after a\n+        newline inserted by another rule, the raw whitespace before the target\n+        can include the indentation of the previous line plus an extra space\n+        from the moved segment itself. In a WITH clause this can result in the\n+        first select target being over-indented by one space after fixing.\n+\n+        To avoid this, if the segment is the first non-whitespace element after\n+        a newline, we derive indentation from the preceding newline and any\n+        following whitespace only, rather than preserving the segment's own\n+        leading whitespace.\n+        \"\"\"\n+        if not isinstance(segment, BaseSegment):\n+            return \"\"\n+        raw = segment.raw\n+        if \"\\n\" not in raw:\n+            return \"\"\n+        last_newline = raw.rfind(\"\\n\")\n+        trailing = raw[last_newline + 1 :]\n+        if trailing.strip():\n+            return \"\"\n+        return trailing\n+\n+    def _get_indent(self, segment):\n         \"\"\"Get the indentation for a segment.\"\"\"\n         if segment.is_type(\"whitespace\"):\n             return segment.raw\n         return \"\"\ndiff --git a/src/sqlfluff/rules/L010.py b/src/sqlfluff/rules/L010.py\nindex d2f8f8a..f3d2c1a 100644\n--- a/src/sqlfluff/rules/L010.py\n+++ b/src/sqlfluff/rules/L010.py\n@@ -1,7 +1,6 @@\n \"\"\"Implementation of Rule L010.\"\"\"\n \n-from typing import List, Optional, Tuple\n-from sqlfluff.core.parser.segments import BaseSegment\n+from typing import List, Optional, Tuple\n \n from sqlfluff.core.rules.base import BaseRule, LintResult, LintFix\n \n@@ -93,31 +92,6 @@ class Rule_L010(BaseRule):\n         return LintResult(anchor=anchor, fixes=fixes)\n \n     def _get_indent(self, segment):\n-        \"\"\"Get the indentation for a segment.\n-\n-        When a select target is moved onto a new line immediately after a\n-        newline inserted by another rule, the raw whitespace before the target\n-        can include the indentation of the previous line plus an extra space\n-        from the moved segment itself. In a WITH clause this can result in the\n-        first select target being over-indented by one space after fixing.\n-\n-        To avoid this, if the segment is the first non-whitespace element after\n-        a newline, we derive indentation from the preceding newline and any\n-        following whitespace only, rather than preserving the segment's own\n-        leading whitespace.\n-        \"\"\"\n-        if not isinstance(segment, BaseSegment):\n-            return \"\"\n-        raw = segment.raw\n-        if \"\\n\" not in raw:\n-            return \"\"\n-        last_newline = raw.rfind(\"\\n\")\n-        trailing = raw[last_newline + 1 :]\n-        if trailing.strip():\n-            return \"\"\n-        return trailing\n-\n-    def _get_indent(self, segment):\n         \"\"\"Get the indentation for a segment.\"\"\"\n         if segment.is_type(\"whitespace\"):\n             return segment.raw\n         return \"\"",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 466,
+    "completion_tokens": 871,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

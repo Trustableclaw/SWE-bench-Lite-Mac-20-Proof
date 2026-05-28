@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DjkcpkzZ7zXzUngZnmJ31EK3joLLf",
+  "object": "chat.completion",
+  "created": 1779796359,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pvlib/tools.py b/pvlib/tools.py\nindex 8f4f7f2..f2d8f4a 100644\n--- a/pvlib/tools.py\n+++ b/pvlib/tools.py\n@@ -331,6 +331,13 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):\n     \"\"\"\n     Golden section search for a DataFrame of parameters.\n     \"\"\"\n+    # If the search interval has zero width, the optimum is trivially at the\n+    # bound. This can occur in pvlib's singlediode calculations when v_oc is\n+    # zero, which previously caused a divide-by-zero in the iteration count\n+    # estimate and an unnecessary failure.\n+    if np.all(np.asarray(lower) == np.asarray(upper)):\n+        return lower, func(lower, params)\n+\n     phi = (1 + np.sqrt(5)) / 2\n     phim1 = phi - 1\n \n@@ -338,7 +345,11 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):\n     df = pd.DataFrame(index=params.index)\n     df['VL'] = lower\n     df['VH'] = upper\n-    niter = np.trunc(np.log(atol / (df['VH'] - df['VL'])) / np.log(phim1))\n+    width = df['VH'] - df['VL']\n+    # Avoid divide-by-zero warnings for degenerate intervals. These are handled\n+    # above, but keep the guard here for robustness with mixed inputs.\n+    width = width.where(width != 0, np.nan)\n+    niter = np.trunc(np.log(atol / width) / np.log(phim1))\n     niter = np.maximum(niter, 0).astype(int)\n \n     df['x1'] = df['VH'] - phim1 * (df['VH'] - df['VL'])\n@@ -356,6 +367,10 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):\n         df['x2'] = df['VL'] + phim1 * (df['VH'] - df['VL'])\n         df['f2'] = func(df['x2'], params)\n \n+        # If any rows have degenerate intervals, their optimum is already known.\n+        # Keep them out of the iteration logic to avoid NaN propagation.\n+        done = (df['VH'] == df['VL'])\n+\n         # update bounds\n         mask = df['f1'] > df['f2']\n         df.loc[mask, 'VL'] = df.loc[mask, 'x1']\n@@ -364,6 +379,10 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):\n         df.loc[~mask, 'x2'] = df.loc[~mask, 'x1']\n         df.loc[~mask, 'f2'] = df.loc[~mask, 'f1']\n \n+        if done.any():\n+            df.loc[done, 'x1'] = df.loc[done, 'VL']\n+            df.loc[done, 'x2'] = df.loc[done, 'VH']\n+\n         if np.all(np.abs(df['VH'] - df['VL']) < atol):\n             break\n     else:\n@@ -371,7 +390,7 @@ def _golden_sect_DataFrame(params, lower, upper, func, atol=1e-8, maxiter=50):\n             raise Exception(\"Iterations exceeded maximum. Check that func\",\n                             \" is not NaN in (lower, upper)\")\n \n-    x = (df['VL'] + df['VH']) / 2\n+    x = (df['VL'] + df['VH']) / 2\n     f = func(x, params)\n     return x, f\n",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1856,
+    "completion_tokens": 879,
+    "total_tokens": 2735,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

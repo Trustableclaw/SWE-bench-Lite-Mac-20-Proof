@@ -1,0 +1,15 @@
+{
+  "data": {
+    "instance_id": "pvlib__pvlib-python-1154",
+    "outcome_type": "patch_apply_failure",
+    "test_log_file": "swebench_results/pvlib__pvlib-python-1154_test.log",
+    "test_log_sha256": "9fe4c0962c4e74d192b60797566b1539bc55727024f8cfae0d929cbae3017965"
+  },
+  "hash": "9c62f848be5be4fd3b88ba08e7816039a4aea5dd151dbe8247aecf6a6feef041",
+  "index": 69,
+  "kind": "trustableclaw.swebench.tests_executed",
+  "prev_hash": "97e6ce4a2315ba7b186d7a4cb49c291997d4da6e97a028073d3b64f8350480c0",
+  "receipt_id": "rcpt_04_tests_executed_pvlib__pvlib_python_1154",
+  "timestamp": "2026-05-28T13:10:22.070762Z",
+  "version": 1
+}

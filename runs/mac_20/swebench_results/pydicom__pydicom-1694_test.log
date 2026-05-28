@@ -1,0 +1,2817 @@
+2026-05-28 15:23:12,250 - INFO - Creating container for pydicom__pydicom-1694...
+2026-05-28 15:23:12,871 - INFO - Container for pydicom__pydicom-1694 created: fa0c9f6f4b5a60aebd3c5a2fdc48bfab0f2f354570aed12ee1e8833a6d0783bf
+2026-05-28 15:23:13,074 - INFO - Container for pydicom__pydicom-1694 started: fa0c9f6f4b5a60aebd3c5a2fdc48bfab0f2f354570aed12ee1e8833a6d0783bf
+2026-05-28 15:23:13,075 - INFO - Intermediate patch for pydicom__pydicom-1694 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/patch.diff, now applying to container...
+2026-05-28 15:23:13,347 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 15:23:13,427 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 15:23:13,500 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 15:23:13,500 - INFO - >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,526 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,527 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,528 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,529 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,530 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,530 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,530 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,530 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,530 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,544 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 15:23:13,544 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,544 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,545 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,546 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,547 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydicom__pydicom-1694: >>>>> Patch Apply Failed:
+patching file pydicom/dataset.py
+Hunk #1 FAILED at 2492.
+1 out of 1 hunk FAILED -- saving rejects to file pydicom/dataset.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pydicom__pydicom-1694/run_instance.log) for more information.
+
+2026-05-28 15:23:13,548 - INFO - Attempting to stop container sweb.eval.pydicom__pydicom-1694.mac_20...
+2026-05-28 15:23:28,702 - INFO - Attempting to remove container sweb.eval.pydicom__pydicom-1694.mac_20...
+2026-05-28 15:23:28,721 - INFO - Container sweb.eval.pydicom__pydicom-1694.mac_20 removed.
+2026-05-28 15:23:28,721 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pydicom_1776_pydicom-1694:latest...
+2026-05-28 15:23:29,438 - INFO - Image swebench/sweb.eval.x86_64.pydicom_1776_pydicom-1694:latest removed.

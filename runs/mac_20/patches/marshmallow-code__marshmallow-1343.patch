@@ -1,0 +1,16 @@
+diff --git a/marshmallow/schema.py b/marshmallow/schema.py
+index 7f4f0f2..f0f8f8d 100644
+--- a/marshmallow/schema.py
++++ b/marshmallow/schema.py
+@@ -891,7 +891,10 @@ class Schema(metaclass=SchemaMeta):
+         for field_name, validators in self._field_validators.items():
+             field_obj = self.fields[field_name]
+             for validator in validators:
+-                value = data[field_obj.attribute or field_name]
++                if data is None:
++                    value = None
++                else:
++                    value = data[field_obj.attribute or field_name]
+                 validator(value)
+ 
+     def _invoke_processors(self, tag, *, pass_many, data, many, original_data=None, **kwargs):

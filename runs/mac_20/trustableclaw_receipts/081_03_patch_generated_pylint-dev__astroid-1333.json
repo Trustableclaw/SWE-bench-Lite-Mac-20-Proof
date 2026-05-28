@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "pylint-dev__astroid-1333",
+    "patch_file": "patches/pylint-dev__astroid-1333.patch",
+    "patch_sha256": "6154bda7c885490be82c04ff86964b0bb2915464cbb5f7ab8f565726af91f201"
+  },
+  "hash": "90a22ff5c99c32a4fd034f6b1552d1be8a2fda4f9373033c6087a30b5f9ea6d0",
+  "index": 80,
+  "kind": "trustableclaw.swebench.patch_generated",
+  "prev_hash": "8dec46535a2e63314b5ecf678ee595d3c1f472b1fcf91778a9043a7e5bcc0f48",
+  "receipt_id": "rcpt_03_patch_generated_pylint_dev__astroid_1333",
+  "timestamp": "2026-05-28T13:35:22.070762Z",
+  "version": 1
+}

@@ -1,0 +1,17 @@
+diff --git a/astroid/brain/brain_builtin_inference.py b/astroid/brain/brain_builtin_inference.py
+index 8f7f4f0..f2d8f7a 100644
+--- a/astroid/brain/brain_builtin_inference.py
++++ b/astroid/brain/brain_builtin_inference.py
+@@ -953,7 +953,10 @@ def _infer_str_format_call(node, context=None):
+         keyword_values = {
+             keyword.arg: next(keyword.value.infer(context))
+             for keyword in node.keywords
+         }
+-        formatted_string = format_template.format(*pos_values, **keyword_values)
++        try:
++            formatted_string = format_template.format(*pos_values, **keyword_values)
++        except TypeError:
++            return
+         yield nodes.Const(formatted_string)
+     except (InferenceError, StopIteration):
+         return

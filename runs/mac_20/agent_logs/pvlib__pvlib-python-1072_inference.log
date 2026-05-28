@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-Djkcnfty7s7Y44Zov5sFnoClLHFNl",
+  "object": "chat.completion",
+  "created": 1779796357,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pvlib/temperature.py b/pvlib/temperature.py\nindex 7f4f2f1..f2d8f7a 100644\n--- a/pvlib/temperature.py\n+++ b/pvlib/temperature.py\n@@ -599,7 +599,7 @@ def fuentes(poa_global, temp_air, wind_speed, noct_installed=45,\n     # calculate the time step in hours\n     # np.diff on a DatetimeIndex with tz-aware values returns Timedelta\n     # objects on pandas>=1.0.0, so use the underlying nanosecond values.\n-    timedelta_hours = np.diff(poa_global.index).astype(float) / 1e9 / 60 / 60\n+    timedelta_hours = np.diff(poa_global.index.asi8).astype(float) / 1e9 / 60 / 60\n \n     # calculate the thermal capacitance of the module\n     # [J / m^2 / K]\n",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 880,
+    "completion_tokens": 221,
+    "total_tokens": 1101,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

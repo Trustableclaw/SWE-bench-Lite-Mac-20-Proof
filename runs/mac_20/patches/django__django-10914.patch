@@ -1,0 +1,120 @@
+diff --git a/django/conf/global_settings.py b/django/conf/global_settings.py
+index 8f7f0f4f2f..f4f0f2d8f1 100644
+--- a/django/conf/global_settings.py
++++ b/django/conf/global_settings.py
+@@ -286,7 +286,7 @@ FILE_UPLOAD_HANDLERS = [
+ ]
+ 
+ # The numeric mode to set newly uploaded files to. The value is a bitmask
+-# of the file permissions. 0o644 is rw-r--r--.
+-FILE_UPLOAD_PERMISSIONS = None
++# of the file permissions. 0o644 is rw-r--r--.
++FILE_UPLOAD_PERMISSIONS = 0o644
+ FILE_UPLOAD_DIRECTORY_PERMISSIONS = None
+diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+index 7f4d2d8c3a..d2f8f1c9a1 100644
+--- a/docs/ref/settings.txt
++++ b/docs/ref/settings.txt
+@@ -1540,7 +1540,7 @@ Default: ``[]``
+ 
+ .. setting:: FILE_UPLOAD_PERMISSIONS
+ 
+-``FILE_UPLOAD_PERMISSIONS``
++``FILE_UPLOAD_PERMISSIONS``
+ ---------------------------
+ 
+ Default: ``None``
+@@ -1548,10 +1548,10 @@ Default: ``None``
+ The numeric mode to set newly uploaded files to. The value is a bitmask
+ of the file permissions. For example, ``0o644`` will give read and write
+ permissions to the owner, and read permissions to group and others.
+-If this isn't supplied, Django won't attempt to set any file permissions.
++The default is ``0o644``.
+ 
+-This setting also determines the permissions of files uploaded to
+-:class:`~django.core.files.storage.FileSystemStorage`.
++This setting determines the permissions of files uploaded to
++:class:`~django.core.files.storage.FileSystemStorage` and the permissions
++of files created by :class:`~django.core.files.uploadhandler.TemporaryFileUploadHandler`.
+ 
+ .. setting:: FILE_UPLOAD_DIRECTORY_PERMISSIONS
+ 
+diff --git a/tests/file_storage/tests.py b/tests/file_storage/tests.py
+index 2f4d8c1a7b..d8f1c2a9e3 100644
+--- a/tests/file_storage/tests.py
++++ b/tests/file_storage/tests.py
+@@ -1,5 +1,6 @@
+ import os
+ import shutil
++import stat
+ import tempfile
+ from io import BytesIO
+ from unittest import mock
+@@ -14,6 +15,7 @@ from django.test import SimpleTestCase, override_settings
+ from django.test.utils import isolate_lru_cache
+ from django.utils._os import safe_join
+ from django.utils.deconstruct import deconstructible
++from django.core.files.uploadedfile import SimpleUploadedFile
+ 
+ from .models import Storage
+ 
+@@ -286,6 +288,18 @@ class FileStorageTests(SimpleTestCase):
+         self.assertEqual(storage.path('test.file'), expected_name)
+         self.assertEqual(storage.path('test_1.file'), expected_name_1)
+ 
++    @override_settings(FILE_UPLOAD_PERMISSIONS=None)
++    def test_save_uploaded_file_default_permissions(self):
++        storage = FileSystemStorage(location=self.temp_dir)
++        uploaded_file = SimpleUploadedFile('test.file', b'content')
++        name = storage.save(uploaded_file.name, uploaded_file)
++        mode = stat.S_IMODE(os.stat(storage.path(name)).st_mode)
++        self.assertEqual(mode, 0o644)
++
++    @override_settings(FILE_UPLOAD_PERMISSIONS=0o600)
++    def test_save_uploaded_file_custom_permissions(self):
++        storage = FileSystemStorage(location=self.temp_dir)
++        uploaded_file = SimpleUploadedFile('test.file', b'content')
++        name = storage.save(uploaded_file.name, uploaded_file)
++        mode = stat.S_IMODE(os.stat(storage.path(name)).st_mode)
++        self.assertEqual(mode, 0o600)
++
+     def test_delete(self):
+         storage = FileSystemStorage(location=self.temp_dir)
+         self.assertFalse(storage.exists('test.file'))
+diff --git a/tests/settings_tests/tests.py b/tests/settings_tests/tests.py
+index 1f2a3b4c5d..3c4d5e6f7a 100644
+--- a/tests/settings_tests/tests.py
++++ b/tests/settings_tests/tests.py
+@@ -1,4 +1,5 @@
+ import os
++import stat
+ import tempfile
+ from unittest import mock
+ 
+@@ -10,6 +11,7 @@ from django.test import SimpleTestCase, override_settings
+ from django.test.utils import isolate_lru_cache
+ from django.utils._os import upath
+ 
++from django.core.files.uploadedfile import SimpleUploadedFile
+ from .tests import SettingsTests
+ from .utils import get_callable_setting
+ 
+@@ -214,6 +216,18 @@ class SettingsTests(SimpleTestCase):
+         self.assertEqual(settings.FILE_UPLOAD_PERMISSIONS, None)
+         self.assertEqual(global_settings.FILE_UPLOAD_PERMISSIONS, None)
+ 
++    @override_settings(FILE_UPLOAD_PERMISSIONS=None)
++    def test_default_file_upload_permissions(self):
++        self.assertEqual(settings.FILE_UPLOAD_PERMISSIONS, None)
++        self.assertEqual(global_settings.FILE_UPLOAD_PERMISSIONS, 0o644)
++
++    @override_settings(FILE_UPLOAD_PERMISSIONS=0o600)
++    def test_custom_file_upload_permissions(self):
++        self.assertEqual(settings.FILE_UPLOAD_PERMISSIONS, 0o600)
++
++    def test_global_default_file_upload_permissions(self):
++        self.assertEqual(global_settings.FILE_UPLOAD_PERMISSIONS, 0o644)
++
+ 
+ class LazySettingsTests(SimpleTestCase):
+     def test_lazy_settings(self):

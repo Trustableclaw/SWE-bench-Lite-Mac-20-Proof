@@ -1,0 +1,43 @@
+diff --git a/pvlib/iam.py b/pvlib/iam.py
+index 8f4f7f0..f2f8f4d 100644
+--- a/pvlib/iam.py
++++ b/pvlib/iam.py
+@@ -1,4 +1,4 @@
+-"""Functions for calculating incidence angle modifiers (IAM)."""
++"""Functions for calculating incidence angle modifiers (IAM)."""
+ 
+ import numpy as np
+ import pandas as pd
+@@ -171,7 +171,7 @@ def physical(aoi, n=1.526, K=4.0, L=0.002, n_ar=None):
+     aoi = np.asarray(aoi, dtype=float)
+     aoi_abs = np.abs(aoi)
+ 
+-    # avoid invalid values for angles > 90 degrees
++    # avoid invalid values for angles > 90 degrees
+     aoi_rad = np.radians(aoi_abs)
+     theta_t = np.arcsin(np.sin(aoi_rad) / n)
+ 
+@@ -179,7 +179,11 @@ def physical(aoi, n=1.526, K=4.0, L=0.002, n_ar=None):
+     tau_s = np.exp(-K * L / np.cos(theta_t))
+     tau_p = tau_s
+ 
+-    rho_s = np.abs(np.sin(aoi_rad - theta_t) / np.sin(aoi_rad + theta_t)) ** 2
+-    rho_p = np.abs(np.tan(aoi_rad - theta_t) / np.tan(aoi_rad + theta_t)) ** 2
++    with np.errstate(invalid='ignore', divide='ignore'):
++        rho_s = np.abs(np.sin(aoi_rad - theta_t) / np.sin(aoi_rad + theta_t)) ** 2
++        rho_p = np.abs(np.tan(aoi_rad - theta_t) / np.tan(aoi_rad + theta_t)) ** 2
++
++    rho_s = np.where(np.isnan(rho_s), 1.0, rho_s)
++    rho_p = np.where(np.isnan(rho_p), 1.0, rho_p)
+ 
+     tau = 1 - 0.5 * (rho_s + rho_p)
+     iam = tau * np.exp(-K * L / np.cos(theta_t))
+@@ -187,7 +191,7 @@ def physical(aoi, n=1.526, K=4.0, L=0.002, n_ar=None):
+     if n_ar is not None:
+         iam *= n_ar
+ 
+-    iam = np.where(aoi_abs > 90, 0, iam)
++    iam = np.where(aoi_abs > 90, 0, iam)
+     iam = np.where(aoi_abs == 90, 0, iam)
+ 
+     if np.isscalar(aoi):

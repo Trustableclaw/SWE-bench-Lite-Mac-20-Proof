@@ -1,0 +1,15 @@
+{
+  "data": {
+    "instance_id": "django__django-10914",
+    "outcome_type": "patch_apply_failure",
+    "test_log_file": "swebench_results/django__django-10914_test.log",
+    "test_log_sha256": "1d09221ca67280ceaf9a779caf2ada90eff0c40acac0d80c096eecf1e72fabc0"
+  },
+  "hash": "7376576471d9c073d61fa8036e1e925eec5e4b2e7ebdf2a8cfa0c43eb30caa00",
+  "index": 111,
+  "kind": "trustableclaw.swebench.tests_executed",
+  "prev_hash": "09ad5cb43b1ff015867cf2f04de6f2f74e28b3709312572ddaacf8c91d1d2fd2",
+  "receipt_id": "rcpt_04_tests_executed_django__django_10914",
+  "timestamp": "2026-05-28T14:55:22.070762Z",
+  "version": 1
+}

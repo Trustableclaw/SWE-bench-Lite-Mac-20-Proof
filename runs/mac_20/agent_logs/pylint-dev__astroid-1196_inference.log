@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCZ7HrxzkH0LPvYQjAZhQIXpiAAT",
+  "object": "chat.completion",
+  "created": 1779903761,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/astroid/nodes/node_classes.py b/astroid/nodes/node_classes.py\nindex 8f7f4f2..f4f2f8d 100644\n--- a/astroid/nodes/node_classes.py\n+++ b/astroid/nodes/node_classes.py\n@@ -2247,10 +2247,18 @@ class Dict(_base_nodes.LookupMixIn, _base_nodes.Instance, _base_nodes.Assignable\n         for key, value in self.items:\n             if key is None:\n                 try:\n-                    return value.getitem(index, context)\n+                    if hasattr(value, \"getitem\"):\n+                        return value.getitem(index, context)\n+                    inferred = next(value.infer(context=context))\n+                    if hasattr(inferred, \"getitem\"):\n+                        return inferred.getitem(index, context)\n+                    raise exceptions.AstroidIndexError(index)\n+                except exceptions.AstroidIndexError:\n+                    raise\n+                except exceptions.InferenceError:\n+                    raise exceptions.AstroidIndexError(index)\n                 except exceptions.AstroidError:\n                     continue\n-\n             try:\n                 inferred_key = next(key.infer(context=context))\n             except exceptions.InferenceError:\n                 continue",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 583,
+    "completion_tokens": 263,
+    "total_tokens": 846,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

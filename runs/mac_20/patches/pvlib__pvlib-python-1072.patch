@@ -1,0 +1,13 @@
+diff --git a/pvlib/temperature.py b/pvlib/temperature.py
+index 7f4f2f1..f2d8f7a 100644
+--- a/pvlib/temperature.py
++++ b/pvlib/temperature.py
+@@ -599,7 +599,7 @@ def fuentes(poa_global, temp_air, wind_speed, noct_installed=45,
+     # calculate the time step in hours
+     # np.diff on a DatetimeIndex with tz-aware values returns Timedelta
+     # objects on pandas>=1.0.0, so use the underlying nanosecond values.
+-    timedelta_hours = np.diff(poa_global.index).astype(float) / 1e9 / 60 / 60
++    timedelta_hours = np.diff(poa_global.index.asi8).astype(float) / 1e9 / 60 / 60
+ 
+     # calculate the thermal capacitance of the module
+     # [J / m^2 / K]

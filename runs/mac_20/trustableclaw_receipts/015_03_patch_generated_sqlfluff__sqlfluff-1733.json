@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "sqlfluff__sqlfluff-1733",
+    "patch_file": "patches/sqlfluff__sqlfluff-1733.patch",
+    "patch_sha256": "8da3a2fb08e68d832eb7e8806a4e8803de6bad1b38a56a0885172e9fb8754cea"
+  },
+  "hash": "a7bd9e4977b70d6fd5bebc673968f6ac4dce2e2eccb80b3ed082212bfdbc068b",
+  "index": 14,
+  "kind": "trustableclaw.swebench.patch_generated",
+  "prev_hash": "12d833e3e5ddcd1036eb36945f0ca1f78affaaf195e4c657c8e3045c40ef07db",
+  "receipt_id": "rcpt_03_patch_generated_sqlfluff__sqlfluff_1733",
+  "timestamp": "2026-05-28T10:50:22.070762Z",
+  "version": 1
+}

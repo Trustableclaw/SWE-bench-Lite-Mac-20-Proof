@@ -1,0 +1,26 @@
+diff --git a/astroid/nodes/node_classes.py b/astroid/nodes/node_classes.py
+index 8f7f4f2..f4f2f8d 100644
+--- a/astroid/nodes/node_classes.py
++++ b/astroid/nodes/node_classes.py
+@@ -2247,10 +2247,18 @@ class Dict(_base_nodes.LookupMixIn, _base_nodes.Instance, _base_nodes.Assignable
+         for key, value in self.items:
+             if key is None:
+                 try:
+-                    return value.getitem(index, context)
++                    if hasattr(value, "getitem"):
++                        return value.getitem(index, context)
++                    inferred = next(value.infer(context=context))
++                    if hasattr(inferred, "getitem"):
++                        return inferred.getitem(index, context)
++                    raise exceptions.AstroidIndexError(index)
++                except exceptions.AstroidIndexError:
++                    raise
++                except exceptions.InferenceError:
++                    raise exceptions.AstroidIndexError(index)
+                 except exceptions.AstroidError:
+                     continue
+-
+             try:
+                 inferred_key = next(key.infer(context=context))
+             except exceptions.InferenceError:
+                 continue

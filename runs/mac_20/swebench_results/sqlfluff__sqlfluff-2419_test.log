@@ -1,0 +1,3377 @@
+2026-05-28 13:33:07,180 - INFO - Creating container for sqlfluff__sqlfluff-2419...
+2026-05-28 13:33:08,212 - INFO - Container for sqlfluff__sqlfluff-2419 created: 1355dfe9469ef21d2299a2228066708e336d148a100332575de7eaaab60e8101
+2026-05-28 13:33:08,306 - INFO - Container for sqlfluff__sqlfluff-2419 started: 1355dfe9469ef21d2299a2228066708e336d148a100332575de7eaaab60e8101
+2026-05-28 13:33:08,307 - INFO - Intermediate patch for sqlfluff__sqlfluff-2419 written to logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/patch.diff, now applying to container...
+2026-05-28 13:33:08,439 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 13:33:08,500 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 13:33:08,562 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 13:33:08,562 - INFO - >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,587 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,588 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,589 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,590 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,591 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,607 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,608 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,609 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sqlfluff__sqlfluff-2419: >>>>> Patch Apply Failed:
+patching file src/sqlfluff/rules/L060.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 FAILED at 32.
+2 out of 3 hunks FAILED -- saving rejects to file src/sqlfluff/rules/L060.py.rej
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/sqlfluff__sqlfluff-2419/run_instance.log) for more information.
+
+2026-05-28 13:33:08,610 - INFO - Attempting to stop container sweb.eval.sqlfluff__sqlfluff-2419.mac_20...
+2026-05-28 13:33:23,731 - INFO - Attempting to remove container sweb.eval.sqlfluff__sqlfluff-2419.mac_20...
+2026-05-28 13:33:23,747 - INFO - Container sweb.eval.sqlfluff__sqlfluff-2419.mac_20 removed.
+2026-05-28 13:33:23,747 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sqlfluff_1776_sqlfluff-2419:latest...
+2026-05-28 13:33:24,286 - INFO - Image swebench/sweb.eval.x86_64.sqlfluff_1776_sqlfluff-2419:latest removed.

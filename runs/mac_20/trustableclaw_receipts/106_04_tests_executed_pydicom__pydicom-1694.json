@@ -1,0 +1,15 @@
+{
+  "data": {
+    "instance_id": "pydicom__pydicom-1694",
+    "outcome_type": "patch_apply_failure",
+    "test_log_file": "swebench_results/pydicom__pydicom-1694_test.log",
+    "test_log_sha256": "d5306830b67f50600a957cb96b89655e474704c1df57abacf86ad5662d505332"
+  },
+  "hash": "c2fe35a2b5dadf349ce8467e1b9d45e65dde548c4894766e1f87aca11885b28e",
+  "index": 105,
+  "kind": "trustableclaw.swebench.tests_executed",
+  "prev_hash": "3ab7d2bc0c950569d27f69149af2e8588e53624322739fdad5095231a640702b",
+  "receipt_id": "rcpt_04_tests_executed_pydicom__pydicom_1694",
+  "timestamp": "2026-05-28T14:40:22.070762Z",
+  "version": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCYq62iJfdFBQgYuiJTVMq1nxW1P",
+  "object": "chat.completion",
+  "created": 1779903744,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pvlib/pvsystem.py b/pvlib/pvsystem.py\nindex 8f7f4f2..f2f7f8a 100644\n--- a/pvlib/pvsystem.py\n+++ b/pvlib/pvsystem.py\n@@ -214,6 +214,8 @@ class PVSystem:\n         \"\"\"\n         if arrays is None:\n             arrays = ()\n+        elif isinstance(arrays, Array):\n+            arrays = (arrays,)\n         elif not hasattr(arrays, '__len__'):\n             arrays = tuple(arrays)\n         elif len(arrays) == 0:\n             raise ValueError(\"PVSystem must have at least one Array. \"\n                              \"If you want to create a PVSystem instance \"",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 643,
+    "completion_tokens": 167,
+    "total_tokens": 810,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+    "actual_response_model": "gpt-5.4-mini-2026-03-17",
+    "agent": "OpenAI Python Agent",
+    "agent_log_file": "agent_logs/sqlfluff__sqlfluff-1763_inference.log",
+    "agent_log_sha256": "03ccf9ca9be70d902dbc9c9c38c100df1dca96fb0510c8c9bea4e5492193e3c3",
+    "instance_id": "sqlfluff__sqlfluff-1763",
+    "model": "gpt-5.4-mini",
+    "provider": "openai",
+    "requested_model": "gpt-5.4-mini"
+  },
+  "hash": "921841def4a299620bc989fc7c040150c0f9bb12db4c392a374a0048b7fc3632",
+  "index": 25,
+  "kind": "trustableclaw.swebench.agent_started",
+  "prev_hash": "54e0f75ae4a8ac3f146b2460a98c7ad4af91a920dc7f410e3df1d323f4895114",
+  "receipt_id": "rcpt_02_agent_started_sqlfluff__sqlfluff_1763",
+  "timestamp": "2026-05-28T11:17:22.070762Z",
+  "version": 1
+}

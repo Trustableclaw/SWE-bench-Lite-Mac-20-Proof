@@ -1,0 +1,15 @@
+{
+  "data": {
+    "instance_id": "pylint-dev__astroid-1866",
+    "outcome_type": "tests_executed_unresolved",
+    "test_log_file": "swebench_results/pylint-dev__astroid-1866_test.log",
+    "test_log_sha256": "16960f46cea0c71bb38db22fb6462406e6565e8785ccbf7095bb6ad6ab3dac24"
+  },
+  "hash": "911531367859bf88a0f3393686b59a71d6b7622ba485a53b96da485b3dde17ad",
+  "index": 93,
+  "kind": "trustableclaw.swebench.tests_executed",
+  "prev_hash": "2c7f9cef15b34053b1a6b2a58121a97509494a7553a84d27ddde650f1a7ed955",
+  "receipt_id": "rcpt_04_tests_executed_pylint_dev__astroid_1866",
+  "timestamp": "2026-05-28T14:10:22.070762Z",
+  "version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "assertions_passed": false,
+    "instance_id": "pylint-dev__astroid-1196",
+    "outcome_type": "patch_apply_failure",
+    "receipt_recorded": true,
+    "resolved": false,
+    "verification_status": "RECORDED_UNRESOLVED"
+  },
+  "hash": "febf341ad4a2e5f72d94e50827253f55113e9aae1d7d6dfac1f7046cbb1c5446",
+  "index": 89,
+  "kind": "trustableclaw.swebench.verification_completed",
+  "prev_hash": "3f1cb48ddfd1b23af758965a72f47726ced1e65bd13e6852e2dd0cdf374e9366",
+  "receipt_id": "rcpt_06_verification_completed_pylint_dev__astroid_1196",
+  "timestamp": "2026-05-28T13:59:22.070762Z",
+  "version": 1
+}

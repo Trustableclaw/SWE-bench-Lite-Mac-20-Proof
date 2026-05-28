@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "pvlib__pvlib-python-1854",
+    "outcome_detail": "Patch applied and tests executed, but SWE-bench reported resolved=false.",
+    "outcome_type": "tests_executed_unresolved",
+    "resolved": false,
+    "result_file": "swebench_results/pvlib__pvlib-python-1854_result.json",
+    "result_sha256": "189533e17c2c04e72d81f60c2694bea845bad699e3bdd3b670231196bdf6cdc0"
+  },
+  "hash": "6d7a00e90e42c78d4661964618ed35ca78eecef1a74ec0234064b787bcedc64f",
+  "index": 64,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "5290cd4a26af615396ba56fd674ab27c5899af505296e7166394f8152b847450",
+  "receipt_id": "rcpt_05_result_recorded_pvlib__pvlib_python_1854",
+  "timestamp": "2026-05-28T12:57:22.070762Z",
+  "version": 1
+}

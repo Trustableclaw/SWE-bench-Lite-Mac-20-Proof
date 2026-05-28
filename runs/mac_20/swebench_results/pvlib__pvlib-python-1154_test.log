@@ -1,0 +1,2817 @@
+2026-05-28 14:50:14,558 - INFO - Creating container for pvlib__pvlib-python-1154...
+2026-05-28 14:50:15,549 - INFO - Container for pvlib__pvlib-python-1154 created: d133da388ba67fc29262a8577bfcf48d17fcd7aa6f6ad0952a26e0ed8a04152e
+2026-05-28 14:50:15,642 - INFO - Container for pvlib__pvlib-python-1154 started: d133da388ba67fc29262a8577bfcf48d17fcd7aa6f6ad0952a26e0ed8a04152e
+2026-05-28 14:50:15,643 - INFO - Intermediate patch for pvlib__pvlib-python-1154 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/patch.diff, now applying to container...
+2026-05-28 14:50:15,796 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 14:50:15,862 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 14:50:15,920 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 14:50:15,920 - INFO - >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,941 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,942 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,943 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,944 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,945 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,958 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,959 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,960 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pvlib__pvlib-python-1154: >>>>> Patch Apply Failed:
+patching file pvlib/irradiance.py
+patch: **** malformed patch at line 15:      sky_diffuse = dhi * (term1 * term2 + term3) / 2.0
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pvlib__pvlib-python-1154/run_instance.log) for more information.
+
+2026-05-28 14:50:15,961 - INFO - Attempting to stop container sweb.eval.pvlib__pvlib-python-1154.mac_20...
+2026-05-28 14:50:31,117 - INFO - Attempting to remove container sweb.eval.pvlib__pvlib-python-1154.mac_20...
+2026-05-28 14:50:31,138 - INFO - Container sweb.eval.pvlib__pvlib-python-1154.mac_20 removed.
+2026-05-28 14:50:31,138 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pvlib_1776_pvlib-python-1154:latest...
+2026-05-28 14:50:32,079 - INFO - Image swebench/sweb.eval.x86_64.pvlib_1776_pvlib-python-1154:latest removed.

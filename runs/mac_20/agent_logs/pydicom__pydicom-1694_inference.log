@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCZINdyemDEWoVTay1z2MpgWJEit",
+  "object": "chat.completion",
+  "created": 1779903772,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pydicom/dataset.py b/pydicom/dataset.py\nindex 7f8f0f2..f4f7f8d 100644\n--- a/pydicom/dataset.py\n+++ b/pydicom/dataset.py\n@@ -2492,13 +2492,13 @@ class Dataset:\n         json_dataset = {}\n         for key in self.keys():\n-            data_element = self[key]\n             try:\n+                data_element = self[key]\n                 json_dataset[data_element.tag] = data_element.to_json_dict(\n                     bulk_data_element_handler=bulk_data_element_handler,\n                     bulk_data_threshold=bulk_data_threshold,\n                     suppress_invalid_tags=suppress_invalid_tags,\n                 )\n-            except NotImplementedError:\n+            except (NotImplementedError, TypeError, ValueError):\n                 if not suppress_invalid_tags:\n                     raise\n \n         return json_dataset",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 636,
+    "completion_tokens": 192,
+    "total_tokens": 828,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

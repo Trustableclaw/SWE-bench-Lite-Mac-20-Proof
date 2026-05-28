@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "pylint-dev__astroid-1866",
+    "outcome_detail": "Patch applied and tests executed, but SWE-bench reported resolved=false.",
+    "outcome_type": "tests_executed_unresolved",
+    "resolved": false,
+    "result_file": "swebench_results/pylint-dev__astroid-1866_result.json",
+    "result_sha256": "e7f49acb5e39d87204f5f88a097bbc2ee344dc383830421bef8611219eaf142d"
+  },
+  "hash": "2518e247d7739b62733e047e35315bea0b8e4ebf8a866365e00439c263466b68",
+  "index": 94,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "911531367859bf88a0f3393686b59a71d6b7622ba485a53b96da485b3dde17ad",
+  "receipt_id": "rcpt_05_result_recorded_pylint_dev__astroid_1866",
+  "timestamp": "2026-05-28T14:12:22.070762Z",
+  "version": 1
+}

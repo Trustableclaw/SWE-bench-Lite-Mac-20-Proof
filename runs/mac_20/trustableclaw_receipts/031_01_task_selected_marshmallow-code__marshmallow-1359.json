@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "marshmallow-code__marshmallow-1359",
+    "repository": "marshmallow-code",
+    "selection_source": "benchmark/task_sets/swebench_lite_mac_20.txt"
+  },
+  "hash": "4b4ed4953c1acbfa3186962b0ead27d10e2214999dbec6c3d4ed4da798ccb5d3",
+  "index": 30,
+  "kind": "trustableclaw.swebench.task_selected",
+  "prev_hash": "dbfe3db039b2962cd69e868726834297b0a9af11e2a98ccd45154e1e819159ac",
+  "receipt_id": "rcpt_01_task_selected_marshmallow_code__marshmallow_1359",
+  "timestamp": "2026-05-28T11:30:22.070762Z",
+  "version": 1
+}

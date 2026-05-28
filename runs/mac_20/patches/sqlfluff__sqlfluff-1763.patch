@@ -1,0 +1,42 @@
+diff --git a/src/sqlfluff/core/linter/fix.py b/src/sqlfluff/core/linter/fix.py
+index 8f4f2f2..f2d7f4a 100644
+--- a/src/sqlfluff/core/linter/fix.py
++++ b/src/sqlfluff/core/linter/fix.py
+@@ -1,6 +1,7 @@
+ """Functions for applying fixes to a parsed file."""
+ 
+ from typing import List, Optional, Tuple
++import sys
+ 
+ from sqlfluff.core.errors import SQLFluffSkipFile
+ from sqlfluff.core.linter.common import LintFix, LintResult
+@@ -214,7 +215,7 @@ def apply_fixes(
+                 )
+                 if fixable:
+                     # If we have a fixable violation, apply it.
+-                    print(f"Applying Fixes to {fname}")
++                    print(f"Applying Fixes to {fname}", file=sys.stderr)
+                     fixed = True
+                     # Apply the fixes.
+                     tree = apply_fixes_to_tree(tree, fixes, templated_file)
+diff --git a/src/sqlfluff/core/linter/linter.py b/src/sqlfluff/core/linter/linter.py
+index 4f1f0f8..f0f8f4d 100644
+--- a/src/sqlfluff/core/linter/linter.py
++++ b/src/sqlfluff/core/linter/linter.py
+@@ -1,6 +1,7 @@
+ """The main linter class."""
+ 
+ import logging
++import sys
+ from typing import Any, Dict, Iterable, List, Optional, Tuple
+ 
+ from sqlfluff.core.errors import SQLFluffSkipFile
+@@ -742,7 +743,7 @@ class Linter:
+                 )
+                 if fixable:
+                     # If we have a fixable violation, apply it.
+-                    print(f"Applying Fixes to {fname}")
++                    print(f"Applying Fixes to {fname}", file=sys.stderr)
+                     fixed = True
+                     # Apply the fixes.
+                     tree = apply_fixes_to_tree(tree, fixes, templated_file)

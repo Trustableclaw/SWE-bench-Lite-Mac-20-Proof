@@ -1,0 +1,3097 @@
+2026-05-28 14:55:33,399 - INFO - Creating container for pylint-dev__astroid-1978...
+2026-05-28 14:55:33,743 - INFO - Container for pylint-dev__astroid-1978 created: 592df5355dbe05f9043f9f53078d8581c0146f730f1f2ca713b276386fb11460
+2026-05-28 14:55:33,825 - INFO - Container for pylint-dev__astroid-1978 started: 592df5355dbe05f9043f9f53078d8581c0146f730f1f2ca713b276386fb11460
+2026-05-28 14:55:33,825 - INFO - Intermediate patch for pylint-dev__astroid-1978 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/patch.diff, now applying to container...
+2026-05-28 14:55:33,960 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 14:55:34,024 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 14:55:34,086 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 14:55:34,086 - INFO - >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,108 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,109 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,110 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,111 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,112 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,113 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,113 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,113 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,113 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,113 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,113 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,125 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,126 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,127 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,128 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__astroid-1978: >>>>> Patch Apply Failed:
+patching file astroid/raw_building.py
+Hunk #1 succeeded at 7 with fuzz 1 (offset 6 lines).
+patch: **** malformed patch at line 22:  
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1978/run_instance.log) for more information.
+
+2026-05-28 14:55:34,129 - INFO - Attempting to stop container sweb.eval.pylint-dev__astroid-1978.mac_20...
+2026-05-28 14:55:49,245 - INFO - Attempting to remove container sweb.eval.pylint-dev__astroid-1978.mac_20...
+2026-05-28 14:55:49,264 - INFO - Container sweb.eval.pylint-dev__astroid-1978.mac_20 removed.
+2026-05-28 14:55:49,264 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pylint-dev_1776_astroid-1978:latest...
+2026-05-28 14:55:49,774 - INFO - Image swebench/sweb.eval.x86_64.pylint-dev_1776_astroid-1978:latest removed.

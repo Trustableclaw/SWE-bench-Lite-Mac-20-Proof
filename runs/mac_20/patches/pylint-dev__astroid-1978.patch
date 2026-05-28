@@ -1,0 +1,22 @@
+diff --git a/astroid/raw_building.py b/astroid/raw_building.py
+index 8f7f4f2..f2f7f8d 100644
+--- a/astroid/raw_building.py
++++ b/astroid/raw_building.py
+@@ -1,6 +1,7 @@
+ """Utilities for building astroid trees from live objects."""
+ 
+ from __future__ import annotations
++import warnings
+ 
+ import builtins
+ import inspect
+@@ -467,7 +468,10 @@ def _module_attrs(module):
+     for name in dir(module):
+         try:
+-            getattr(sys.modules[modname], name)
++            with warnings.catch_warnings():
++                warnings.simplefilter("ignore", FutureWarning)
++                getattr(sys.modules[modname], name)
+         except Exception:
+             continue
+         yield name

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "pylint-dev__astroid-1978",
+    "outcome_detail": "Evaluation setup or patch application failed.",
+    "outcome_type": "patch_apply_failure",
+    "resolved": false,
+    "result_file": "swebench_results/pylint-dev__astroid-1978_result.json",
+    "result_sha256": "b73259786f3208c4cc55fda691538ef60e9662c9294cf3bb3f77f16135d3a0a5"
+  },
+  "hash": "3a9aa33b6719a8cc664f370de076aa3a44320677826373e623339de0786b34df",
+  "index": 76,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "bfe7e4804264c9b11357ef084e3ad6e9f2b6c6ee622d79221e7df8d3761616cf",
+  "receipt_id": "rcpt_05_result_recorded_pylint_dev__astroid_1978",
+  "timestamp": "2026-05-28T13:27:22.070762Z",
+  "version": 1
+}

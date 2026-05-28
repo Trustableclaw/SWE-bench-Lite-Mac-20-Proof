@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "marshmallow-code__marshmallow-1343",
+    "patch_file": "patches/marshmallow-code__marshmallow-1343.patch",
+    "patch_sha256": "e561644dc4be26b9186067842c5a17d04c09d0dc7957bc7fc45d8a4faee22fa8"
+  },
+  "hash": "21ab602c50aff577745d174cd7073e7f83a0dd8d78b32614cc5c0a2ef75fe263",
+  "index": 38,
+  "kind": "trustableclaw.swebench.patch_generated",
+  "prev_hash": "dfe4b6762473909cbf9540346c2bf84dd53e2c7d3eb2d743d647aeb5520e9bad",
+  "receipt_id": "rcpt_03_patch_generated_marshmallow_code__marshmallow_1343",
+  "timestamp": "2026-05-28T11:50:22.070762Z",
+  "version": 1
+}

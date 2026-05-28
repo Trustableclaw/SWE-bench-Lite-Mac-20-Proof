@@ -1,0 +1,44 @@
+diff --git a/src/sqlfluff/rules/L031.py b/src/sqlfluff/rules/L031.py
+index 8f3f2f1..f2f7d8a 100644
+--- a/src/sqlfluff/rules/L031.py
++++ b/src/sqlfluff/rules/L031.py
+@@ -1,6 +1,7 @@
+ """Implementation of Rule L031."""
+ 
+ from sqlfluff.core.rules import BaseRule, LintResult, RuleContext
++from sqlfluff.core.parser.segments import BaseSegment
+ 
+ 
+ class Rule_L031(BaseRule):
+@@ -24,18 +25,31 @@ class Rule_L031(BaseRule):
+     def _eval(self, context: RuleContext):
+         """Aliases should not be used in join conditions."""
+         segment = context.segment
+-        if segment.is_type("join_clause"):
+-            # Look for aliases in the join condition.
+-            for child in segment.segments:
+-                if child.is_type("expression"):
+-                    for seg in child.segments:
+-                        if seg.is_type("column_reference"):
+-                            if len(seg.segments) > 1:
+-                                return LintResult(
+-                                    anchor=seg,
+-                                    description="Avoid using aliases in join condition.",
+-                                )
++        if not segment.is_type("join_clause"):
++            return None
++
++        # Look for aliases in the join condition only when a join clause exists.
++        # TSQL table aliases can appear in other contexts, such as SELECT targets,
++        # and should not be flagged by this rule unless they are part of a join
++        # condition.
++        for child in segment.segments:
++            if child.is_type("expression"):
++                for seg in child.segments:
++                    if seg.is_type("column_reference"):
++                        if len(seg.segments) > 1:
++                            return LintResult(
++                                anchor=seg,
++                                description="Avoid using aliases in join condition.",
++                            )
+         return None

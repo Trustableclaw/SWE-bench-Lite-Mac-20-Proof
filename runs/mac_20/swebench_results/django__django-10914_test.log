@@ -1,0 +1,2797 @@
+2026-05-28 15:40:28,475 - INFO - Creating container for django__django-10914...
+2026-05-28 15:40:29,425 - INFO - Container for django__django-10914 created: 4622985acdb68ff23dddd4f52fe0feca75ab7312ec0b31ee1d0647dcb690f5dd
+2026-05-28 15:40:29,526 - INFO - Container for django__django-10914 started: 4622985acdb68ff23dddd4f52fe0feca75ab7312ec0b31ee1d0647dcb690f5dd
+2026-05-28 15:40:29,526 - INFO - Intermediate patch for django__django-10914 written to logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/patch.diff, now applying to container...
+2026-05-28 15:40:29,673 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 15:40:29,738 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 15:40:29,803 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-05-28 15:40:29,803 - INFO - >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+2026-05-28 15:40:29,827 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 15:40:29,827 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,827 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,827 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,827 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,827 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,828 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,829 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,830 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,831 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,832 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,847 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-05-28 15:40:29,847 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,848 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,849 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,850 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10914: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+patch: **** malformed patch at line 14: diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+
+
+Check (logs/run_evaluation/mac_20/gpt-5.4-mini/django__django-10914/run_instance.log) for more information.
+
+2026-05-28 15:40:29,851 - INFO - Attempting to stop container sweb.eval.django__django-10914.mac_20...
+2026-05-28 15:40:44,981 - INFO - Attempting to remove container sweb.eval.django__django-10914.mac_20...
+2026-05-28 15:40:45,003 - INFO - Container sweb.eval.django__django-10914.mac_20 removed.
+2026-05-28 15:40:45,003 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-10914:latest...
+2026-05-28 15:40:45,660 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-10914:latest removed.

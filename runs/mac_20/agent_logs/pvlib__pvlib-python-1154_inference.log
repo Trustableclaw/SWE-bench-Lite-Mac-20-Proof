@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-DkCYutZnf58tfIo47VNt98g6L8EV2",
+  "object": "chat.completion",
+  "created": 1779903748,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pvlib/irradiance.py b/pvlib/irradiance.py\nindex 8f4f2f0..f4f0f4a 100644\n--- a/pvlib/irradiance.py\n+++ b/pvlib/irradiance.py\n@@ -1718,7 +1718,8 @@ def reindl(surface_tilt, surface_azimuth, dhi, dni, ghi, dni_extra,\n     term1 = 0.5 * (1 + np.cos(np.radians(surface_tilt)))\n     term2 = 1 - np.cos(np.radians(surface_tilt)) ** 2 * np.sin(\n         np.radians(surface_tilt / 2)) ** 3\n-    term3 = 1 + np.sqrt(np.divide(dni, ghi, where=ghi != 0) *\n+    dni_ghi = np.divide(dni, ghi, out=np.zeros_like(dni, dtype=float),\n+                        where=ghi != 0)\n+    term3 = 1 + np.sqrt(dni_ghi *\n                         np.cos(np.radians(aoi)) ** 2 *\n                         np.sin(np.radians(surface_tilt / 2)) ** 3)\n     sky_diffuse = dhi * (term1 * term2 + term3) / 2.0\n     return sky_diffuse",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 297,
+    "total_tokens": 638,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

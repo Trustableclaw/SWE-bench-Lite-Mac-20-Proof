@@ -1,0 +1,17 @@
+{
+  "data": {
+    "instance_id": "pvlib__pvlib-python-1154",
+    "outcome_detail": "Evaluation setup or patch application failed.",
+    "outcome_type": "patch_apply_failure",
+    "resolved": false,
+    "result_file": "swebench_results/pvlib__pvlib-python-1154_result.json",
+    "result_sha256": "2a91ba0fd8b5801e5f5b5aedb140a066e8cf4f11b5fc172fc620b4c9dbd15288"
+  },
+  "hash": "306ea2fb339c6b47641917e5b3c93a8321d34388439540c35f6443aafe4abfdf",
+  "index": 70,
+  "kind": "trustableclaw.swebench.result_recorded",
+  "prev_hash": "9c62f848be5be4fd3b88ba08e7816039a4aea5dd151dbe8247aecf6a6feef041",
+  "receipt_id": "rcpt_05_result_recorded_pvlib__pvlib_python_1154",
+  "timestamp": "2026-05-28T13:12:22.070762Z",
+  "version": 1
+}

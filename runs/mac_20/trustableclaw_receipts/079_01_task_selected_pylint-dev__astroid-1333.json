@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "pylint-dev__astroid-1333",
+    "repository": "pylint-dev",
+    "selection_source": "benchmark/task_sets/swebench_lite_mac_20.txt"
+  },
+  "hash": "fd5423f92ea153253deb236f9445aa91c3a32b5630a60475fe375d3128234bae",
+  "index": 78,
+  "kind": "trustableclaw.swebench.task_selected",
+  "prev_hash": "ff659fd77a7782719112f8ded716237287672451a6115b3861fc25f1d1d5f6e9",
+  "receipt_id": "rcpt_01_task_selected_pylint_dev__astroid_1333",
+  "timestamp": "2026-05-28T13:30:22.070762Z",
+  "version": 1
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "pydicom__pydicom-1694",
+    "patch_file": "patches/pydicom__pydicom-1694.patch",
+    "patch_sha256": "97935e8e560149a5e056a867ad564d5a5088e2bef3b8eaf21da4dff4f9155e4f"
+  },
+  "hash": "3ab7d2bc0c950569d27f69149af2e8588e53624322739fdad5095231a640702b",
+  "index": 104,
+  "kind": "trustableclaw.swebench.patch_generated",
+  "prev_hash": "5d79dfbf4cd49ad5534e5a3132be818e6d8d7475d38347d84c2a4f83afcd3d22",
+  "receipt_id": "rcpt_03_patch_generated_pydicom__pydicom_1694",
+  "timestamp": "2026-05-28T14:35:22.070762Z",
+  "version": 1
+}

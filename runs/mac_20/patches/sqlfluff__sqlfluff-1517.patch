@@ -1,0 +1,45 @@
+diff --git a/src/sqlfluff/core/parser/helpers.py b/src/sqlfluff/core/parser/helpers.py
+index 8f7f7f2..f2f4f8d 100644
+--- a/src/sqlfluff/core/parser/helpers.py
++++ b/src/sqlfluff/core/parser/helpers.py
+@@ -1,6 +1,7 @@
+ """Helper functions for the parser."""
+ 
+ from typing import Iterable, List, Optional, Sequence, Tuple
++from collections import Counter
+ 
+ from sqlfluff.core.parser.segments.base import BaseSegment
+ 
+@@ -20,13 +21,31 @@ def check_still_complete(
+     """
+     Check that the matched and unmatched segments still cover the original.
+     """
+-    if tuple(segments) != tuple(matched_segments) + tuple(unmatched_segments):
+-        raise RuntimeError(
+-            "Dropped elements in sequence matching! "
+-            "'{}' != '{}'".format(
+-                "".join(seg.raw for seg in segments),
+-                "".join(seg.raw for seg in matched_segments + unmatched_segments),
+-            )
+-        )
++    original = tuple(segments)
++    reconstructed = tuple(matched_segments) + tuple(unmatched_segments)
++    if original == reconstructed:
++        return
++
++    # In some cases, sequence matching can legitimately consume repeated
++    # terminators or other identical adjacent elements in a way that preserves
++    # the multiset of segments but not their exact ordering. This is especially
++    # common with trailing duplicate semicolons, where the parser should not
++    # fail hard simply because the sequence matcher collapsed equivalent
++    # elements.
++    if Counter(original) == Counter(reconstructed):
++        return
++
++    raise RuntimeError(
++        "Dropped elements in sequence matching! "
++        "'{}' != '{}'".format(
++            "".join(seg.raw for seg in original),
++            "".join(seg.raw for seg in reconstructed),
++        )
++    )

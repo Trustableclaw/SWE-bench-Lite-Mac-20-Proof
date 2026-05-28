@@ -1,0 +1,99 @@
+diff --git a/pydicom/valuerep.py b/pydicom/valuerep.py
+index 8f2f7f2..f4f7f8a 100644
+--- a/pydicom/valuerep.py
++++ b/pydicom/valuerep.py
+@@ -1,6 +1,7 @@
+ """Classes and functions for representing DICOM value representations."""
+ 
+ from collections.abc import Iterable
++from collections.abc import Sequence
+ from decimal import Decimal
+ from typing import Any
+ from typing import Callable
+@@ -1040,6 +1041,18 @@ def _format_number_as_ds(val: Any) -> str:
+     return str(val)
+ 
+ 
++def _is_bytes_like(value: Any) -> bool:
++    """Return ``True`` if *value* is a bytes-like object."""
++    return isinstance(value, (bytes, bytearray, memoryview))
++
++
++def _is_multi_value(value: Any) -> bool:
++    """Return ``True`` if *value* is a multi-valued DICOM value."""
++    return isinstance(value, MultiValue) or (
++        isinstance(value, Sequence) and not isinstance(value, (str, bytes, bytearray, memoryview))
++    )
++
++
+ class PersonName(str):
+     """Represent a DICOM Person Name (PN) value."""
+ 
+diff --git a/pydicom/filewriter.py b/pydicom/filewriter.py
+index 2f4f0f1..f0f0f2a 100644
+--- a/pydicom/filewriter.py
++++ b/pydicom/filewriter.py
+@@ -34,7 +34,7 @@ from pydicom.tag import BaseTag
+ from pydicom.tag import Tag
+ from pydicom.tag import TagType
+ from pydicom.tag import TupleTag
+-from pydicom.valuerep import PersonName
++from pydicom.valuerep import PersonName, _is_bytes_like, _is_multi_value
+ from pydicom.valuerep import VR
+ from pydicom.valuerep import VR as VRType
+ from pydicom.valuerep import VR as VRTypeAlias
+@@ -470,7 +470,7 @@ def write_numbers(fp: DicomIO, elem: DataElement) -> None:
+     if elem.VR in {VR.OB, VR.OD, VR.OF, VR.OL, VR.OV, VR.OW, VR.UN}:
+         if elem.VR == VR.OB or elem.VR == VR.UN:
+             fp.write(cast(bytes, elem.value))
+-        elif isinstance(elem.value, MultiValue):
++        elif _is_multi_value(elem.value) and not _is_bytes_like(elem.value):
+             fp.write(cast(bytes, bytes(elem.value)))
+         else:
+             fp.write(cast(bytes, elem.value))
+@@ -479,7 +479,7 @@ def write_numbers(fp: DicomIO, elem: DataElement) -> None:
+         fp.write(cast(bytes, elem.value))
+         return
+ 
+-    if isinstance(elem.value, MultiValue):
++    if _is_multi_value(elem.value) and not _is_bytes_like(elem.value):
+         fp.write(cast(bytes, bytes(elem.value)))
+     else:
+         fp.write(cast(bytes, elem.value))
+diff --git a/pydicom/dataelem.py b/pydicom/dataelem.py
+index 7d8f0f1..8f0f0f2 100644
+--- a/pydicom/dataelem.py
++++ b/pydicom/dataelem.py
+@@ -1,6 +1,7 @@
+ """Classes and functions for representing DICOM data elements."""
+ 
+ from collections.abc import Iterable
++from collections.abc import Sequence
+ from copy import deepcopy
+ from typing import Any
+ from typing import Callable
+@@ -43,7 +44,7 @@ from pydicom.tag import BaseTag
+ from pydicom.tag import Tag
+ from pydicom.tag import TagType
+ from pydicom.tag import TupleTag
+-from pydicom.valuerep import PersonName
++from pydicom.valuerep import PersonName, _is_bytes_like, _is_multi_value
+ from pydicom.valuerep import VR
+ from pydicom.valuerep import VR as VRType
+ from pydicom.valuerep import VR as VRTypeAlias
+@@ -101,7 +102,7 @@ def _convert_value(vr: str, value: Any) -> Any:
+     if vr in {VR.OB, VR.OD, VR.OF, VR.OL, VR.OV, VR.OW, VR.UN}:
+         if vr == VR.OB or vr == VR.UN:
+             return value
+-        if isinstance(value, MultiValue):
++        if _is_multi_value(value) and not _is_bytes_like(value):
+             return bytes(value)
+         return value
+ 
+@@ -109,7 +110,7 @@ def _convert_value(vr: str, value: Any) -> Any:
+         return value
+ 
+-    if isinstance(value, MultiValue):
++    if _is_multi_value(value) and not _is_bytes_like(value):
+         return value
+     return value

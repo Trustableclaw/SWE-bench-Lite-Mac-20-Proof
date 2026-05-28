@@ -1,0 +1,17 @@
+{
+  "data": {
+    "assertions_passed": false,
+    "instance_id": "sqlfluff__sqlfluff-1625",
+    "outcome_type": "patch_apply_failure",
+    "receipt_recorded": true,
+    "resolved": false,
+    "verification_status": "RECORDED_UNRESOLVED"
+  },
+  "hash": "c61eeda473fe8a90ac32f81ae07053119eac1ea202c98a6a0341b9e99354ff67",
+  "index": 5,
+  "kind": "trustableclaw.swebench.verification_completed",
+  "prev_hash": "556b4be59ae12c63b16768bcddda7e3f5426402acc07829aff9f2b840c89274f",
+  "receipt_id": "rcpt_06_verification_completed_sqlfluff__sqlfluff_1625",
+  "timestamp": "2026-05-28T10:29:22.070762Z",
+  "version": 1
+}

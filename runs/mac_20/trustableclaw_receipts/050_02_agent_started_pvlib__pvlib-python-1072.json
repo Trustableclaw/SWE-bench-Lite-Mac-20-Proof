@@ -1,0 +1,19 @@
+{
+  "data": {
+    "actual_response_model": "gpt-5.4-mini-2026-03-17",
+    "agent": "OpenAI Python Agent",
+    "agent_log_file": "agent_logs/pvlib__pvlib-python-1072_inference.log",
+    "agent_log_sha256": "9c1b1149be1bee883c578f42349e343cdc8c0188013786ebcfb47a420de05ef3",
+    "instance_id": "pvlib__pvlib-python-1072",
+    "model": "gpt-5.4-mini",
+    "provider": "openai",
+    "requested_model": "gpt-5.4-mini"
+  },
+  "hash": "a86b04cf03c5ed16e3ecc10566fa2d55aa53167dab6a92e4bdc99548821c342c",
+  "index": 49,
+  "kind": "trustableclaw.swebench.agent_started",
+  "prev_hash": "db7bae13b91b0970456ec6efcae567b25db1475872d3663b2866dceb15195ca4",
+  "receipt_id": "rcpt_02_agent_started_pvlib__pvlib_python_1072",
+  "timestamp": "2026-05-28T12:17:22.070762Z",
+  "version": 1
+}

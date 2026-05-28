@@ -1,0 +1,15 @@
+diff --git a/pvlib/pvsystem.py b/pvlib/pvsystem.py
+index 8f7f4f2..f2f7f8a 100644
+--- a/pvlib/pvsystem.py
++++ b/pvlib/pvsystem.py
+@@ -214,6 +214,8 @@ class PVSystem:
+         """
+         if arrays is None:
+             arrays = ()
++        elif isinstance(arrays, Array):
++            arrays = (arrays,)
+         elif not hasattr(arrays, '__len__'):
+             arrays = tuple(arrays)
+         elif len(arrays) == 0:
+             raise ValueError("PVSystem must have at least one Array. "
+                              "If you want to create a PVSystem instance "

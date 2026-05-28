@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-Djkcg6vtejg2TY6aPDFosBv4dAdDq",
+  "object": "chat.completion",
+  "created": 1779796350,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "diff --git a/pvlib/iam.py b/pvlib/iam.py\nindex 8f4f7f0..f2f8f4d 100644\n--- a/pvlib/iam.py\n+++ b/pvlib/iam.py\n@@ -1,4 +1,4 @@\n-\"\"\"Functions for calculating incidence angle modifiers (IAM).\"\"\"\n+\"\"\"Functions for calculating incidence angle modifiers (IAM).\"\"\"\n \n import numpy as np\n import pandas as pd\n@@ -171,7 +171,7 @@ def physical(aoi, n=1.526, K=4.0, L=0.002, n_ar=None):\n     aoi = np.asarray(aoi, dtype=float)\n     aoi_abs = np.abs(aoi)\n \n-    # avoid invalid values for angles > 90 degrees\n+    # avoid invalid values for angles > 90 degrees\n     aoi_rad = np.radians(aoi_abs)\n     theta_t = np.arcsin(np.sin(aoi_rad) / n)\n \n@@ -179,7 +179,11 @@ def physical(aoi, n=1.526, K=4.0, L=0.002, n_ar=None):\n     tau_s = np.exp(-K * L / np.cos(theta_t))\n     tau_p = tau_s\n \n-    rho_s = np.abs(np.sin(aoi_rad - theta_t) / np.sin(aoi_rad + theta_t)) ** 2\n-    rho_p = np.abs(np.tan(aoi_rad - theta_t) / np.tan(aoi_rad + theta_t)) ** 2\n+    with np.errstate(invalid='ignore', divide='ignore'):\n+        rho_s = np.abs(np.sin(aoi_rad - theta_t) / np.sin(aoi_rad + theta_t)) ** 2\n+        rho_p = np.abs(np.tan(aoi_rad - theta_t) / np.tan(aoi_rad + theta_t)) ** 2\n+\n+    rho_s = np.where(np.isnan(rho_s), 1.0, rho_s)\n+    rho_p = np.where(np.isnan(rho_p), 1.0, rho_p)\n \n     tau = 1 - 0.5 * (rho_s + rho_p)\n     iam = tau * np.exp(-K * L / np.cos(theta_t))\n@@ -187,7 +191,7 @@ def physical(aoi, n=1.526, K=4.0, L=0.002, n_ar=None):\n     if n_ar is not None:\n         iam *= n_ar\n \n-    iam = np.where(aoi_abs > 90, 0, iam)\n+    iam = np.where(aoi_abs > 90, 0, iam)\n     iam = np.where(aoi_abs == 90, 0, iam)\n \n     if np.isscalar(aoi):\n",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 326,
+    "completion_tokens": 620,
+    "total_tokens": 946,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

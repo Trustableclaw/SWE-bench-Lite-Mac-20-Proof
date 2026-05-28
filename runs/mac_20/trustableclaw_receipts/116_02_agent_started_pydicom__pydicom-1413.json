@@ -1,0 +1,19 @@
+{
+  "data": {
+    "actual_response_model": "gpt-5.4-mini-2026-03-17",
+    "agent": "OpenAI Python Agent",
+    "agent_log_file": "agent_logs/pydicom__pydicom-1413_inference.log",
+    "agent_log_sha256": "de537504991e56261db93992c2cac54fe71ecb411e14e334ca2ba243e0f33505",
+    "instance_id": "pydicom__pydicom-1413",
+    "model": "gpt-5.4-mini",
+    "provider": "openai",
+    "requested_model": "gpt-5.4-mini"
+  },
+  "hash": "11c09d10c788dafd734142f6348e1542ebfdde9e5e5604a9cd83ee299b43bc7e",
+  "index": 115,
+  "kind": "trustableclaw.swebench.agent_started",
+  "prev_hash": "4fbb9a9a667d7d849a19a01b88ed05343464a314b8751aaed62a2c42a01cbefe",
+  "receipt_id": "rcpt_02_agent_started_pydicom__pydicom_1413",
+  "timestamp": "2026-05-28T15:02:22.070762Z",
+  "version": 1
+}

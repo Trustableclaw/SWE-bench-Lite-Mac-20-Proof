@@ -1,0 +1,55 @@
+2026-05-28 15:11:06,924 - INFO - Creating container for pylint-dev__astroid-1866...
+2026-05-28 15:11:07,809 - INFO - Container for pylint-dev__astroid-1866 created: 5650ccfd35539318ccef38faa9e5cadd0a8e45aa5db988984f82db94e869247c
+2026-05-28 15:11:07,917 - INFO - Container for pylint-dev__astroid-1866 started: 5650ccfd35539318ccef38faa9e5cadd0a8e45aa5db988984f82db94e869247c
+2026-05-28 15:11:07,918 - INFO - Intermediate patch for pylint-dev__astroid-1866 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1866/patch.diff, now applying to container...
+2026-05-28 15:11:08,063 - INFO - Failed to apply patch to container: git apply --verbose
+2026-05-28 15:11:08,137 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-05-28 15:11:08,204 - INFO - >>>>> Applied Patch:
+patching file astroid/brain/brain_builtin_inference.py
+Hunk #1 succeeded at 952 with fuzz 4 (offset -1 lines).
+
+2026-05-28 15:11:08,334 - INFO - Git diff before:
+diff --git a/astroid/brain/brain_builtin_inference.py b/astroid/brain/brain_builtin_inference.py
+index af1ddf4d..64b5df74 100644
+--- a/astroid/brain/brain_builtin_inference.py
++++ b/astroid/brain/brain_builtin_inference.py
+@@ -953,7 +953,10 @@ def _infer_str_format_call(
+     keyword_values: dict[str, str] = {k: v.value for k, v in inferred_keyword.items()}
+ 
+     try:
+-        formatted_string = format_template.format(*pos_values, **keyword_values)
++        try:
++            formatted_string = format_template.format(*pos_values, **keyword_values)
++        except TypeError:
++            return
+     except (IndexError, KeyError):
+         # If there is an IndexError there are too few arguments to interpolate
+         return iter([util.Uninferable])
+2026-05-28 15:11:08,335 - INFO - Eval script for pylint-dev__astroid-1866 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1866/eval.sh; copying to container...
+2026-05-28 15:11:14,625 - INFO - Test runtime: 6.24 seconds
+2026-05-28 15:11:14,626 - INFO - Test output for pylint-dev__astroid-1866 written to logs/run_evaluation/mac_20/gpt-5.4-mini/pylint-dev__astroid-1866/test_output.txt
+2026-05-28 15:11:14,701 - INFO - Git diff after:
+diff --git a/astroid/brain/brain_builtin_inference.py b/astroid/brain/brain_builtin_inference.py
+index af1ddf4d..64b5df74 100644
+--- a/astroid/brain/brain_builtin_inference.py
++++ b/astroid/brain/brain_builtin_inference.py
+@@ -953,7 +953,10 @@ def _infer_str_format_call(
+     keyword_values: dict[str, str] = {k: v.value for k, v in inferred_keyword.items()}
+ 
+     try:
+-        formatted_string = format_template.format(*pos_values, **keyword_values)
++        try:
++            formatted_string = format_template.format(*pos_values, **keyword_values)
++        except TypeError:
++            return
+     except (IndexError, KeyError):
+         # If there is an IndexError there are too few arguments to interpolate
+         return iter([util.Uninferable])
+2026-05-28 15:11:14,701 - INFO - Grading answer for pylint-dev__astroid-1866...
+2026-05-28 15:11:14,716 - INFO - report: {'pylint-dev__astroid-1866': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['tests/unittest_brain_builtin.py::TestStringNodes::test_string_format_uninferable[\\n']}, 'PASS_TO_PASS': {'success': ['tests/unittest_brain_builtin.py::BuiltinsTest::test_infer_property', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[empty-indexes]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[numbered-indexes]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[named-indexes]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[numbered-indexes-from-positional]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[named-indexes-from-keyword]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[mixed-indexes-from-mixed]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format[empty-indexes-on-variable]', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format_uninferable["I', 'tests/unittest_brain_builtin.py::TestStringNodes::test_string_format_with_specs'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for pylint-dev__astroid-1866: resolved: False
+2026-05-28 15:11:14,717 - INFO - Attempting to stop container sweb.eval.pylint-dev__astroid-1866.mac_20...
+2026-05-28 15:11:29,840 - INFO - Attempting to remove container sweb.eval.pylint-dev__astroid-1866.mac_20...
+2026-05-28 15:11:29,859 - INFO - Container sweb.eval.pylint-dev__astroid-1866.mac_20 removed.
+2026-05-28 15:11:29,859 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pylint-dev_1776_astroid-1866:latest...
+2026-05-28 15:11:30,343 - INFO - Image swebench/sweb.eval.x86_64.pylint-dev_1776_astroid-1866:latest removed.

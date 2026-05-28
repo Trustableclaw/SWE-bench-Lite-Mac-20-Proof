@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "pvlib__pvlib-python-1154",
+    "repository": "pvlib",
+    "selection_source": "benchmark/task_sets/swebench_lite_mac_20.txt"
+  },
+  "hash": "0c123f22572553127309d6b7f952e034fa1fd1aa02ed0a9732018fb9dd2468af",
+  "index": 66,
+  "kind": "trustableclaw.swebench.task_selected",
+  "prev_hash": "2102e03bf9db0dacf5e12a892e3ca2f78f75e1df126fa179e46d56deb1219263",
+  "receipt_id": "rcpt_01_task_selected_pvlib__pvlib_python_1154",
+  "timestamp": "2026-05-28T13:00:22.070762Z",
+  "version": 1
+}

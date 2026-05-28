@@ -1,0 +1,14 @@
+{
+  "data": {
+    "instance_id": "django__django-10914",
+    "repository": "django",
+    "selection_source": "benchmark/task_sets/swebench_lite_mac_20.txt"
+  },
+  "hash": "86ef5eda4ece891a5ccbc5e2014048d4f6bce494f652033e54ee4a70f2a16e32",
+  "index": 108,
+  "kind": "trustableclaw.swebench.task_selected",
+  "prev_hash": "19c66d14e6fa19671b5373debdf8f90f4d9bc7479956e46824d56f16d803bcd0",
+  "receipt_id": "rcpt_01_task_selected_django__django_10914",
+  "timestamp": "2026-05-28T14:45:22.070762Z",
+  "version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "assertions_passed": false,
+    "instance_id": "pvlib__pvlib-python-1606",
+    "outcome_type": "patch_apply_failure",
+    "receipt_recorded": true,
+    "resolved": false,
+    "verification_status": "RECORDED_UNRESOLVED"
+  },
+  "hash": "889a2b21423d5a5d0849f0741fc5b7d3004fc77745969b65c8aaf57ba7951ffe",
+  "index": 59,
+  "kind": "trustableclaw.swebench.verification_completed",
+  "prev_hash": "71b931c32bf9b343f53b50d1fedc792d77bad6bb680e56909adccdaa7fc3b4c7",
+  "receipt_id": "rcpt_06_verification_completed_pvlib__pvlib_python_1606",
+  "timestamp": "2026-05-28T12:44:22.070762Z",
+  "version": 1
+}
